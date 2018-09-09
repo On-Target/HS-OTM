@@ -1,0 +1,21 @@
+.modal-body iframe, #cartoonVideo {
+width:100% !important; 
+}
+
+.main-vid-test-cont {background:#fff; }
+
+.main-vid-test-cont button {
+  
+max-width:350px;
+
+}
+
+
+.main-vid-test-internal-cont {
+text-align: center;
+  font-weight: bold;}
+
+.main-vid-test-internal-cont p {
+font-size: 24px;
+
+}

@@ -1,0 +1,60 @@
+[ {
+  "id" : "7efa7fda-df20-bc9e-7f31-507a4b09477b",
+  "name" : "text_field",
+  "label" : "Enter Quote Here",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "placeholder" : "Enter Quote Here",
+  "allow_new_line" : false,
+  "type" : "text",
+  "default" : "Watch Video"
+}, {
+  "id" : "46e88a3f-9173-1f87-11a2-ac6cc853ba34",
+  "name" : "text_field_1",
+  "label" : "Text field",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "placeholder" : "Video TItle",
+  "allow_new_line" : false,
+  "type" : "text",
+  "default" : "B2B Marketing: The Costello Story"
+}, {
+  "id" : "cef3d0d0-d2ef-914a-f4e9-07af80d7e09d",
+  "name" : "image_field",
+  "label" : "Image field",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "resizable" : false,
+  "type" : "image",
+  "default" : {
+    "src" : "https://www.ontargetagency.com/hubfs/Video1_img-1.png",
+    "alt" : "Digital Marketing Testimonial for Houston's Best Marketing Firm ",
+    "width" : 1920,
+    "height" : 375
+  }
+}, {
+  "id" : "d983ac8f-d901-1ea5-2a4d-1555291964ed",
+  "name" : "youtubevideoid3",
+  "label" : "YouTubeVIdeoID2",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "placeholder" : "Place video id here ",
+  "allow_new_line" : false,
+  "type" : "text",
+  "default" : "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WuXnQp8eXHE?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
+} ]

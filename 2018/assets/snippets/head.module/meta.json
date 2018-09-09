@@ -1,0 +1,33 @@
+{
+  "contains_overridable_hubl_tags" : false,
+  "content_tags" : [ ],
+  "css_assets" : [ {
+    "resource_id" : 5989315667,
+    "url" : null,
+    "name" : "aos.css",
+    "autoload" : true
+  }, {
+    "resource_id" : 5988958290,
+    "url" : null,
+    "name" : "bootstrap4_1_0.css",
+    "autoload" : true
+  }, {
+    "resource_id" : 5745922480,
+    "url" : null,
+    "name" : "style.css",
+    "autoload" : true
+  } ],
+  "editable_contexts" : [ ],
+  "external_js" : [ ],
+  "extra_classes" : "",
+  "global" : false,
+  "help_text" : "",
+  "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING" ],
+  "js_assets" : [ ],
+  "label" : null,
+  "other_assets" : [ ],
+  "placement_rules" : [ ],
+  "purchased" : false,
+  "tags" : [ ],
+  "is_available_for_new_content" : true
+}

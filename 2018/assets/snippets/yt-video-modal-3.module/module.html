@@ -1,0 +1,34 @@
+<div class="main-vid-test-cont">
+  <div class="main-vid-test-internal-cont container">
+  <p>Don't take our word for it,<br>
+discover why Ryko Development<br>
+has been our customer since 2009. </p>
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary red-btn otm-btn" data-toggle="modal" data-target="#exampleModal3">
+{% inline_text field="text_field" value="{{ module.text_field }}" %}
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">{% inline_text field="text_field_1" value="{{ module.text_field_1 }}" %}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+    {% inline_text field="youtubevideoid3" value="{{ module.youtubevideoid3 }}" %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary red-btn otm-btn" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>

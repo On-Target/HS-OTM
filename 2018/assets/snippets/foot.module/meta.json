@@ -1,0 +1,53 @@
+{
+  "contains_overridable_hubl_tags" : false,
+  "content_tags" : [ ],
+  "css_assets" : [ {
+    "resource_id" : 5988972288,
+    "url" : null,
+    "name" : "fontawesome4_7.css",
+    "autoload" : true
+  }, {
+    "resource_id" : 5988972552,
+    "url" : null,
+    "name" : "simplelineicons.css",
+    "autoload" : true
+  }, {
+    "resource_id" : 5988972826,
+    "url" : null,
+    "name" : "animate.css",
+    "autoload" : true
+  } ],
+  "editable_contexts" : [ ],
+  "external_js" : [ ],
+  "extra_classes" : "",
+  "global" : false,
+  "help_text" : "",
+  "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING" ],
+  "js_assets" : [ {
+    "resource_id" : 5988965898,
+    "url" : null,
+    "name" : "jquery3_2_1.js",
+    "autoload" : true
+  }, {
+    "resource_id" : 5989303747,
+    "url" : null,
+    "name" : "bootstrap4_1_0.js",
+    "autoload" : true
+  }, {
+    "resource_id" : 5989304149,
+    "url" : null,
+    "name" : "aos2_1_1.js",
+    "autoload" : true
+  }, {
+    "resource_id" : 5746688236,
+    "url" : null,
+    "name" : "script.js",
+    "autoload" : true
+  } ],
+  "label" : null,
+  "other_assets" : [ ],
+  "placement_rules" : [ ],
+  "purchased" : false,
+  "tags" : [ ],
+  "is_available_for_new_content" : true
+}

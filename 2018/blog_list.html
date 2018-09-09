@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en-us" xml:lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ content.html_title }}</title>
+        <meta name="description" content="{{ content.meta_description }}">
+        {{ standard_header_includes }}
+      
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+  {% module "module_152509620453033" module_id="2842050" label="head" %}
+
+      
+    </head>
+<body >
+
+   {% module "module_152509650118873" module_id="2841936" label="nav" %}
+  
+  
+  
+  
+  
+   <div class="container-fluid d-flex justify-content-center align-items-center align-content-center video-parallax-container" id="video-header">
+         <div class="col-12 col-sm-7 col-lg-10 d-inline-block intro-logo page-title-header">
+            <h1 class="text-uppercase" style="color:rgb(255,255,255);height:auto;">ASK ON-TARGET!<br></h1>
+           
+           
+           {% post_filter "post_filter" select_blog='default', expand_link_text='', filter_type='tag', overrideable=false, list_title='', max_links=8, order_by='post_count', wrapping_html='<div id="sticker">{{html}}</div>', label='Posts by Topic' %}
+           
+           
+
+     
+     
+     </div>
+    
+    <video height="auto" autoplay="" poster="{% image_src "header_image_src" src="https://www.ontargetagency.com/hubfs/images/Inbound-Marketing-1.jpg", no_wrapper=True %}" muted="" loop="" style="background-image:url(&quot;{% image_src "header_image_src" src="https://www.ontargetagency.com/hubfs/images/Inbound-Marketing-1.jpg", no_wrapper=True %}&quot;);background-size:cover;background-repeat:no-repeat;background-position:center;"></video>
+
+</div>
+  
+ 
+  
+  
+   <div class="features-boxed">
+        <div class="container padding50">
+          
+          
+          <!-- Blog -->
+          
+            <div class="body-container-wrapper">
+        <div class="body-container container-fluid">
+
+         
+
+            <div class="row-fluid-wrapper row-depth-1 row-number-8 ">
+                <div class="row-fluid ">
+                    <div class="span12 widget-span widget-type-cell page-center content-wrapper padding40tb" style="text-align:left;" data-widget-type="cell" data-x="0" data-w="12">
+
+                        <div class="row-fluid-wrapper row-depth-1 row-number-9 ">
+                            <div class="row-fluid ">
+                                <div class="span12 widget-span widget-type-cell " style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                                    <div class="row-fluid-wrapper row-depth-1 row-number-10 ">
+                                        <div class="row-fluid ">
+                                            <div class="span12 widget-span widget-type-cell blog-content" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+                                                <div class="row-fluid-wrapper row-depth-1 row-number-11 ">
+                                                    <div class="row-fluid ">
+                                                        <div class="span12 widget-span widget-type-blog_content " style="background: none; padding: 0px;" data-widget-type="blog_content" data-x="0" data-w="12">
+                                                            {% if is_listing_view %}
+                                                            <div class="blog-section" style="max-width:1080px;">
+                                                                <div class="blog-listing-wrapper cell-wrapper">
+                                                                    {# simple_list_page indicates the "blog/all" page, which is a list of links to every blog post #}
+                                                                    <div class="post-listing {% if simple_list_page %}-simple {% endif %}">
+
+                                                                        {% if blog_author %}
+                                                                        <div class="hs-author-profile">
+                                                                            <h2 class="hs-author-name">{{ blog_author.display_name }}</h2>
+
+                                                                            {% if blog_author.avatar %}
+                                                                            <div class="hs-author-avatar"> <img width="35 px" src="{{ blog_author.avatar }}" alt="{{ blog_author.display_name }}"> </div>
+                                                                            {% endif %}
+
+                                                                            <div class="hs-author-bio">{{ blog_author.bio }}</div>
+
+                                                                            {% if blog_author.has_social_profiles %}
+                                                                            <div class="hs-author-social-section"> <span class="hs-author-social-label">Find me on:</span>
+                                                                                <div class="hs-author-social-links">
+                                                                                    {% if blog_author.facebook %} <a href="{{ blog_author.facebook }}" target="_blank" class="hs-author-social-link hs-social-facebook">[fa icon="facebook-square"]<span class="hs-screen-reader-text">Facebook</span></a> {% endif %} {% if blog_author.linkedin %} <a href="{{ blog_author.linkedin }}" target="_blank" class="hs-author-social-link hs-social-linkedin">[fa icon="linkedin-square"]<span class="hs-screen-reader-text">Linkedin</span></a> {% endif %} {% if blog_author.twitter %} <a href="{{ blog_author.twitter }}" target="_blank" class="hs-author-social-link hs-social-twitter">[fa icon="twitter-square"]<span class="hs-screen-reader-text">Twitter</span></a> {% endif %} {% if blog_author.google_plus %} <a href="{{ blog_author.google_plus }}?rel=author" target="_blank" class="hs-author-social-link hs-social-google-plus">[fa icon="google-plus-square"]<span class="hs-screen-reader-text">Google Plus</span></a> {% endif %}
+                                                                                </div>
+                                                                            </div>
+                                                                            {% endif %}
+                                                                        </div>
+
+
+                                                                        <br />
+                                                                        <h2 class="hs-author-listing-header">Recent Resources</h2>
+
+                                                                        {% endif %}
+
+                                                                        <div class="resource cards row">
+
+                                                                            {% for content in contents %}
+
+
+                                                                            <figure id="{{content.id}}" class="snip1527 col-md-4">
+
+
+                                                                                <div class="image card-bg-scale" style="background:url('{{ content.post_list_summary_featured_image }}'); ">
+
+                                                                                    <a href="{{content.absolute_url}}"><img src="{{ content.post_list_summary_featured_image }}" alt="pr-sample23" style="visibility:hidden;"></a>
+
+                                                                                </div>
+                                                                                <figcaption>
+                                                                                    <div class="date"><span class="day">{{ content.publish_date|datetimeformat('%e')}}</span><span class="month">{{ content.publish_date|datetimeformat('%b')}}</span></div>
+                                                                                    <h3><a href="{{content.absolute_url}}">{{ content.name }}</a></h3>
+                                                                                    <!-- content.post_list_content | safe | truncate(150) -->
+                                                                                </figcaption>
+
+                                                                            </figure>
+
+
+
+                                                                            <script>
+                                                                                document.getElementById("{{content.id}}").setAttribute('onclick', 'location.href = "{{content.absolute_url}}"');
+                                                                            </script>
+
+                                                                            {% endfor %} </div>
+                                                                    </div>
+
+
+
+
+                                                                    <div class="blog-pagination"> {% if last_page_num %} <a class="previous-posts-link" href="{{ blog_page_link(last_page_num) }}">[fa icon="angle-double-left"] Prev</a> {% endif %}
+                                                                        <a class="all-posts-link" href="{{ group.absolute_url }}/all">All posts</a> {% if next_page_num %} <a class="next-posts-link" href="{{ blog_page_link(next_page_num) }}">Next [fa icon="angle-double-right"]</a> {% endif %} </div>
+                                                                </div>
+                                                            </div>
+                                                            {% else %}
+                                                            <div class="blog-section">
+                                                                <div class=" wrapper cell-wrapper">
+                                                                    <div class="section post-header clearfix">
+                                                                        <h2> <a href="{{ content.absolute_url }}" id="hubspot-name" class="link hubspot-editable" data-hubspot-form-id="name" data-hubspot-name="Blog Title">{{ content.name }}</a> </h2>
+                                                                        <p id="hubspot-author_data" class="hubspot-editable" data-hubspot-form-id="author_data" data-hubspot-name="Blog Author"> {{ content.publish_date_localized }} / by {% if content.blog_post_author %} <a class="author-link" href="{{ group.absolute_url }}/author/{{ content.blog_post_author.slug }}">{{ content.blog_post_author.display_name }}</a> {% if content.blog_post_author.avatar %}</p>
+                                                                        <div class="hs-author-avatar"> <img width="35 px" src="{{ content.blog_post_author.avatar }}" alt="{{ content.blog_post_author.display_name }}"> </div> {% endif %} {% endif %}
+                                                                        <div class="social-sharing-wrapper"> {% blog_social_sharing "blog_social_sharing" overrideable=False, label='Blog Social Sharing' %} </div>
+                                                                    </div>
+                                                                    <div class="section post-body">
+
+                                                                        {{ content.post_body }} {% raw_html "raw_html"label='Video Box' %} {% widget_block rich_text "my_rich_text_module" overrideable=True, label='After Video Post Body' %} {% widget_attribute "html" %} {% end_widget_attribute %} {% end_widget_block %}
+
+                                                                    </div> {% if content.topic_list %}
+
+                                                                    <p id="hubspot-topic_data" style="text-transform: capitalize;"> Topics: {% for topic in content.topic_list %} <a class="topic-link" href="{{ group.absolute_url }}/topic/{{ topic.slug }}">{{ topic.name }}</a>{% if not loop.last %},{% endif %} {% endfor %} </p> {% endif %}
+                                                                    <div class="about-author-sec row-fluid" style="display:none;">
+                                                                        <div class="span2"> <img width="100" height="100" alt="{{ content.blog_post_author.display_name }}" src="{{ content.blog_post_author.avatar }}"> </div>
+                                                                        <div class="span10">
+                                                                            <h4>Written by <a class="author-link" href="{{ group.absolute_url }}/author/{{ content.blog_post_author.slug }}">{{ content.blog_post_author.display_name }}</a></h4>
+                                                                            <p>{{ content.blog_post_author.bio }}</p> {% if content.blog_post_author.has_social_profiles %}
+                                                                            <div class="hs-author-social-section">
+                                                                                <!-- <span class="hs-author-social-label">Find me on:</span> -->
+                                                                                <div class="hs-author-social-links"> {% if content.blog_post_author.facebook %} <a href="{{ content.blog_post_author.facebook }}" target="_blank" class="hs-author-social-link accentColor1">[fa icon="facebook-square"]<span class="hs-screen-reader-text">Facebook</span></a> {% endif %} {% if content.blog_post_author.linkedin %} <a href="{{ content.blog_post_author.linkedin }}" target="_blank" class="hs-author-social-link accentColor1">[fa icon="linkedin-square"]<span class="hs-screen-reader-text">Linkedin</span></a> {% endif %} {% if content.blog_post_author.twitter %} <a href="{{ content.blog_post_author.twitter }}" target="_blank" class="hs-author-social-link accentColor1">[fa icon="twitter-square"]<span class="hs-screen-reader-text">Twitter</span></a> {% endif %} {% if content.blog_post_author.google_plus %} <a href="{{ content.blog_post_author.google_plus }}?rel=author" target="_blank" class="hs-author-social-link accentColor1">[fa icon="google-plus-square"]<span class="hs-screen-reader-text">Google Plus</span></a> {% endif %} </div>
+                                                                            </div> {% endif %} </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                            {% endif %}</div>
+
+                                                    </div>
+                                                    <!--end row-->
+                                                </div>
+                                                <!--end row-wrapper -->
+
+                                                <div class="row-fluid-wrapper row-depth-1 row-number-12 ">
+                                                    <div class="row-fluid ">
+                                                        <div class="span12 widget-span widget-type-blog_comments " style="" data-widget-type="blog_comments" data-x="0" data-w="12">
+                                                            <div class="cell-wrapper layout-widget-wrapper">
+                                                                {% blog_comments "blog_comments" overrideable=false, label='Blog Comments' %}</div>
+                                                            <!--end layout-widget-wrapper -->
+                                                        </div>
+                                                        <!--end widget-span -->
+                                                    </div>
+                                                    <!--end row-->
+                                                </div>
+                                                <!--end row-wrapper -->
+
+                                            </div>
+                                            <!--end widget-span -->
+                                        </div>
+                                        <!--end row-->
+                                    </div>
+                                    <!--end row-wrapper -->
+
+                                </div>
+                                <!--end widget-span -->
+                            </div>
+                            <!--end row-->
+                        </div>
+                        <!--end row-wrapper -->
+
+                        <div class="row-fluid-wrapper row-depth-1 row-number-13 ">
+                            <div class="row-fluid ">
+                                <div class="span12 widget-span widget-type-cell blog-sidebar" style="display:none;" data-widget-type="cell" data-x="0" data-w="12">
+
+                                    <div class="row-fluid-wrapper row-depth-1 row-number-14 ">
+                                        <div class="row-fluid ">
+                                            <div class="span12 widget-span widget-type-raw_jinja " style="" data-widget-type="raw_jinja" data-x="0" data-w="12">
+                                                <div class="tabber-wrap blog-tabber">
+                                                    <ul class="clearfix tabber-tabs">
+                                                        <li class="active"><a>Recent</a></li>
+                                                        <li><a>Popular</a></li>
+                                                        <li><a>Categories</a></li>
+                                                    </ul>
+                                                    <div class="tabber-content">
+                                                        <div class="tab-pane active"> {% rss_listing "recent_posts" rss_url='', show_date=True, feed_source={rss_url='', is_external=False, select_blog="default"}, click_through_text='Read more', publish_date_text='posted at', include_featured_image=True, overrideable=False, publish_date_format='', show_detail=False, show_author=False, number_of_items='5', is_external=False, publish_date_format='MMM d, yyyy', title='', label='RSS Listing', limit_to_chars='200', attribution_text='by' %} </div>
+                                                        <div class="tab-pane" id="tab-2">
+
+
+                                                            {% set pop_posts = blog_popular_posts('default', 5) %} {% for pop_post in pop_posts %}
+
+
+                                                            <div class="post-title" style="   margin-bottom: 20px;
+    display: block;
+    overflow: hidden;">
+                                                                <a href="{{ pop_post.absolute_url }}"><img src="{{ pop_post.featured_image }}" alt="{{ pop_post.name }}" style="    float: left;
+    width: 40%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;"></a>
+                                                                <a href="{{ pop_post.absolute_url }}" style="float: right;
+    width: 60%;
+    padding: 0 0 0 15px;">{{ pop_post.name }}</a></div>
+
+                                                            {% endfor %}
+
+
+                                                        </div>
+                                                        <div class="tab-pane" id="tab-3">
+
+
+
+                                                            {% set topic_posts = blog_recent_topic_posts('default', 'marketing-tips', 5) %} {% for topic_post in topic_posts %}
+                                                            <div class="post-title">{{ topic_post.name }}</div>
+                                                            {% endfor %} {% post_filter "post_categories" label="Post Categories", expand_link_text="see all", filter_type="topic", list_title="Lists by Topic", max_links=10, order_by="post_count", select_blog="default" %} </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--end widget-span -->
+
+                                        </div>
+                                        <!--end row-->
+                                    </div>
+                                    <!--end row-wrapper -->
+
+                                    <div class="row-fluid-wrapper row-depth-1 row-number-15 ">
+                                        <div class="row-fluid ">
+                                            <div class="span12 widget-span widget-type-cta " style="" data-widget-type="cta" data-x="0" data-w="12">
+                                                <div class="cell-wrapper layout-widget-wrapper">
+                                                    {% cta "module_1502987064716160" wrapping_html='', per_widget_wrapper_html='', overrideable=true, embed_code='
+                                                    <!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><span class="hs-cta-node hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806" ><img class="hs-cta-img" id="hs-cta-img-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" style="border-width:0px;" height="300" width="375" src="https://no-cache.hubspot.com/cta/default/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806.png"  alt="New Call-to-action"/></a></span>
+                                                    <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+                                                    <script type="text/javascript">
+                                                        hbspt.cta.load(3221680, \'33e7e45e-91b4-43c6-b2c1-2e9d7d184806\', {});
+                                                    </script>
+                                                    </span>
+                                                    <!-- end HubSpot Call-to-Action Code -->', guid='33e7e45e-91b4-43c6-b2c1-2e9d7d184806', image_html='
+                                                    <!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" data-hs-img-pg="33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-wrapper-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><span class="hs-cta-node hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><a href="https://cta-image-cms2.hubspot.com/ctas/v2/public/cs/ci/?pg=33e7e45e-91b4-43c6-b2c1-2e9d7d184806&pid=3221680&ecid={{encrypted_contact_id}}&hseid={{email_campaign_id}}&hsic={{impersonated_contact}}" ><img class="hs-cta-img" id="hs-cta-img-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" style="border-width:0px;" mce_noresize="1" height="300" width="375" src="https://cta-image-cms2.hubspot.com/ctas/v2/public/cs/il/?pg=33e7e45e-91b4-43c6-b2c1-2e9d7d184806&pid=3221680&ecid={{encrypted_contact_id}}&hseid={{email_campaign_id}}&hsic={{impersonated_contact}}"  alt="New Call-to-action"/></a></span></span>
+                                                    <!-- end HubSpot Call-to-Action Code -->', image_src='https://no-cache.hubspot.com/cta/default/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806.png', label='Call-to-Action' %}</div>
+                                                <!--end layout-widget-wrapper -->
+                                            </div>
+                                            <!--end widget-span -->
+                                        </div>
+                                        <!--end row-->
+                                    </div>
+                                    <!--end row-wrapper -->
+
+                                    <div class="row-fluid-wrapper row-depth-1 row-number-16 ">
+                                        <div class="row-fluid ">
+                                            <div class="span12 widget-span widget-type-blog_subscribe " style="" data-widget-type="blog_subscribe" data-x="0" data-w="12">
+                                                <div class="cell-wrapper layout-widget-wrapper">
+                                                    {% blog_subscribe "module_150030597167557" overrideable=false, response_message='Thanks for Subscribing!', select_blog='default', title='Subscribe to Email Updates', label='Blog Email Subscription' %}</div>
+                                                <!--end layout-widget-wrapper -->
+                                            </div>
+                                            <!--end widget-span -->
+                                        </div>
+                                        <!--end row-->
+                                    </div>
+                                    <!--end row-wrapper -->
+
+                                    <div class="row-fluid-wrapper row-depth-1 row-number-17 ">
+                                        <div class="row-fluid ">
+                                            <div class="span12 widget-span widget-type-post_listing " style="display:none;" data-widget-type="post_listing" data-x="0" data-w="12">
+                                                <div class="cell-wrapper layout-widget-wrapper">
+                                                    {% post_listing "top_posts" select_blog='default', list_title='Recent Posts', listing_type='recent', overrideable=false, max_links='10', label='Recent Posts' %}</div>
+                                                <!--end layout-widget-wrapper -->
+                                            </div>
+                                            <!--end widget-span -->
+                                        </div>
+                                        <!--end row-->
+                                    </div>
+                                    <!--end row-wrapper -->
+
+                                </div>
+                                <!--end widget-span -->
+                            </div>
+                            <!--end row-->
+                        </div>
+                        <!--end row-wrapper -->
+
+                    </div>
+                    <!--end widget-span -->
+                </div>
+                <!--end row-->
+            </div>
+            <!--end row-wrapper -->
+
+            <div class="row-fluid-wrapper row-depth-1 row-number-18 ">
+                <div class="row-fluid ">
+                    <div class="span12 widget-span widget-type-raw_jinja " style="" data-widget-type="raw_jinja" data-x="0" data-w="12">
+
+                        {% if content.topic_list %} {% set max_posts = 1 %}
+                        <!-- Set the max number of related posts to be output to the page here -->
+                        {% set count = 0 %} {% for topic in content.topic_list %} {% if loop.index == 1 %} {% set topic_one = blog_recent_topic_posts('default', topic.slug, max_posts + 4 ) %} {% if topic_one|length == 1 %}
+                        <p>There are no related posts</p>
+                        {% endif %} {% elif loop.index == 2 %} {% set topic_two = blog_recent_topic_posts('default', topic.slug, max_posts + 1 ) %} {% elif loop.index == 3 %} {% set topic_three = blog_recent_topic_posts('default', topic.slug, max_posts + 1 ) %} {% endif %} {% if loop.length >= 3 and loop.index == 3 %} {% set related_posts = (topic_one + topic_two + topic_three)|sort(true, false, 'publish_date')|unique('name') %} {% set loop_count = 3 %} {% elif loop.length == 2 and loop.index == 2 %} {% set related_posts = (topic_one + topic_two)|sort(true, false, 'publish_date')|unique('name') %} {% set loop_count = 2 %} {% elif loop.length == 1 and loop.index == 1 %} {% set related_posts = topic_one %} {% set loop_count = 1 %} {% endif %} {% if loop.index == loop_count %} {% for post in related_posts %} {% if content.absolute_url != post.absolute_url and count
+                        < max_posts %} <a href="{{post.absolute_url}}">
+
+                            <div class="related-post-item" style="position:relative; text-align:center;">
+
+
+
+
+
+                                <div class="hover-zoom" style="background-position: center center; 
+                        background-image:linear-gradient(rgba(0, 0, 0, 0.7),        rgba(0, 0, 0, 0.75)     ),      url(&quot;{{ post.featured_image }}&quot;)">
+
+
+                                    <div class="related-title" style="        top: 35%;
+    position: relative;
+    color: #fff;
+    font-size: 2.25rem;
+    text-transform: uppercase;">Next Up: <a href="{{post.absolute_url}}" style="color:#fff; ">{{ post.name}}</a></div>
+
+
+                                </div>
+
+
+
+
+
+
+               
+                            </div>
+
+                            </a>
+
+                            {% set count = count + 1 %} {% endif %} {% endfor %} {% endif %} {% endfor %} {% endif %}
+                    </div>
+                    <!--end widget-span -->
+
+                </div>
+                <!--end row-->
+            </div>
+            <!--end row-wrapper -->
+
+        </div>
+        <!--end body -->
+    </div>
+    <!--end body wrapper -->
+          
+          <!-- End Blog -->
+          
+       
+     </div>
+        </div>
+  
+  
+       {% module "module_152509634232252" module_id="2842056" label="foot" %}
+  
+  {{ standard_footer_includes }}
+  
+</body>
+
+</html>
+
+
+
+
+

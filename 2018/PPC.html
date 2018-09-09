@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en-us" xml:lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ content.html_title }}</title>
+    <meta name="description" content="{{ content.meta_description }}">
+    {{ standard_header_includes }}
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    {% module "module_152509620453033" module_id="2842050" label="head" %}
+
+    <style>
+      .sidenav a {
+        font-weight: bold;
+      }
+
+      .sticky {
+        position: sticky;
+        top: 200px;
+      }
+
+      .main-pillar-content h1 {
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding:0;
+        text-align: left;
+      }
+
+
+      .main-pillar-content h2 {
+        font-size: 27px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding:0;
+        text-align: left;
+      }
+
+      .main-pillar-content h3 {
+        font-size: 32px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding:0;
+        text-align: left;
+      }
+
+
+      .main-pillar-content h4 {
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding:0;
+        text-align: left;
+      }
+
+      .pillar-title-section {
+        max-width: 100%;
+        margin: 25px auto;
+      }
+
+
+
+      .fal, .fas {
+        margin-right: 15px;
+        background: #000;
+        border-radius: 100%;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        align-self: center;
+        display: inline-flex !important;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 24px !important;
+      }
+
+
+      li {
+        display: inline-flex;
+        padding: 30px 30px;
+      }
+
+      .sticky#sticky-sub-nav {
+        top:80px;
+      }
+
+      .header-btn {
+        background: #262626 !important;
+        border: none !important;
+
+        width:300px;
+        color: #fff !important;
+      }
+
+      .header-btn:hover {
+        background: #e2e2e2 !important;
+
+      }
+
+      #best,#spend, #targeting{
+        position:relative;
+      }
+
+      #best:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
+        /*background-image: url(https://www.ontargetagency.com/hubfs/images/blue-web-layout.png);*/
+        opacity: 0.2;
+        background-size: 50%;
+        background-position: top right;
+        background-repeat: no-repeat;
+      }
+
+
+      #spend:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        /*    background-image: url(https://www.ontargetagency.com/hubfs/images/rocket.png);*/
+        opacity: 0.2;
+        background-size: 50%;
+        background-position: top right;
+        background-repeat: no-repeat;
+      }
+
+      .hs-cta-img {
+        width: 100%;
+        height: auto;
+      }
+
+      ul.side_nav {
+
+        padding-inline-start: 0;
+      }
+
+      ul.side_nav li {
+        display:flex;
+        padding: 0;
+      }
+
+
+
+      .nav-up {
+        top: 40px;
+        z-index:-9999 !important;
+        transition: top 1s ease-in-out;
+
+      }
+
+      @media(min-width:768px) {
+        .nav-up {
+          z-index:9999 !important;
+        }
+
+      }
+
+      header {
+
+        height: 100px;
+        position: fixed;
+        top: 80px;
+        transition: top 1s ease-in-out;
+        width: 100%;
+      }
+      .sub-nav-container {
+        display:flex;
+        flex-direction:column;
+      }
+
+      .sub-nav-container li {
+        display: block;
+        padding: 0;
+      }
+
+      .left-sticky-nav {
+        align-self: left;
+      }
+
+      .right-sticky-nav {
+        width: 100%;align-self: center;
+      }
+
+      .right-sticky-nav ul {
+        float: left;margin: 0; padding:0;
+      }
+
+      @media(min-width:768px) {
+
+        .right-sticky-nav ul {
+          float: right;margin: 0;
+        }
+
+        .right-sticky-nav {
+          align-self: left;
+        }
+
+        .left-sticky-nav {
+          align-self: center;
+        }
+
+        .sub-nav-container li {
+          display: inline-flex;
+          padding: 15px;
+        }
+
+        header {
+
+          height: 80px;
+        }  .sub-nav-container {
+          display:flex;
+          flex-direction:row;
+        }}
+
+
+
+      .page-title-header {
+        display: block !important;
+      }
+
+      .page-title-header h1 {
+        font-size: 32px;
+        margin-top: 50px;
+      }
+
+        .quad i {
+    float: left;
+}
+      
+    </style>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-87DrmpqHRiY8hPLIr7ByqhPIywuSsjuQAfMXAE0sMUpY3BM7nXjf+mLIUSvhDArs" crossorigin="anonymous">
+
+  </head>
+  <body>
+
+    {% module "module_152509650118873" module_id="2841936" label="nav" %}
+
+
+
+
+    <div class="container-fluid d-flex justify-content-center align-items-center align-content-center video-parallax-container" id="video-header" 
+         style="padding:0;background:url('https://www.ontargetagency.com/hubfs/images/ppc-header.jpg');background-size:cover; background-position:center;">
+
+      <div style="background:#0000;width: 100%;height: 100%;padding: 0;display: flex;">
+
+        <div class="col-12 col-sm-7 col-lg-10 d-inline-block intro-logo page-title-header" data-aos="fade" data-aos-duration="500" style="align-self: center;
+                                                                                                                                          margin: 0 auto;">
+          <h1 class="text-uppercase" style="color:rgb(255,255,255);height:auto;">{% inline_rich_text "inline_rich_text" field="my_text_field" html="GETTING STARTED WITH GOOGLE ADWORDS (PPC)<br>" %}</h1>
+          <a class="btn btn-primary left-btn header-btn" role="button" href="/consultation" >ASK AN ON-TARGET! PPC EXPERT</a>
+          <!--       <a class="btn btn-primary  header-btn" role="button" href="/contact-us"  style="">ASK AN ON-TARGET! EXPERT</a>-->
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+    <header style="background:#DBDBDB;z-index: 9999;background: rgb(234, 234, 234, .91); display:flex;" id="sticky-sub-nav" class="nav-down sticky">
+
+      <div class="container sub-nav-container" style="align-self:center;">
+
+        <div class="left-sticky-nav" ><p style="margin: 0;"><a href="#adwords">OVERVIEW</a></p></div>
+
+        <div class="right-sticky-nav">
+
+          <ul >
+            <li><a href="#best">So how do I get the best out of AdWords</a></li>
+
+            <li>
+              <a href="#spending">How much should I spend?</a>
+            </li>
+
+            <li><a href="#targeting">Targeting Your Ads</a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </header>
+    <section style="background:#fff;padding:20px;" id="adwords" >
+
+
+
+      <div class="container" style="padding: 50px 0;">
+        <div class="row">
+
+          <div class="col-xl-8 col-lg-8 col-md-8 main-pillar-content">
+            <div class="row">
+              <div class="col" >
+
+
+                <h2>{% text 'SectionTitle' label='Section Title', value='PPC (Pay Per Click) IE. AdWords' %}</h2>
+                
+
+                
+               {% rich_text 'SectionDescription' label='Main Description' html=' <p>Are you willing to buy visitors? Rather than trying to improve your organic SEO approach, you can implement a PPC (Pay-Per-Click) strategy that allows your business to pay a fee each time a Googler clicks on your ad. PPC allows
+                    you to bid for ad placement in the search engine’s sponsored links section. PPC can help your business appear on page 1 instead of page 10. </p>' %}
+              </div>
+            </div>
+            <div id="best">
+<!--        <img src="https://www.ontargetagency.com/hubfs/images/ppc-main.png" width="100%" style="margin:40px 0;"> -->
+              <div >
+                <h4>{% text 'Section1ASubhead' label='Subhead - Adwords', value='So how do I get the best out of AdWords?' %}</h4>
+             {% rich_text 'Section1ADescription' label='description'  html='   <p>Google claims that you do not need to spend a lot of money on AdWords to get a return on the investment. However, many people are paying for clicks that have zero likelihood of turning into a profit. Here are a few ways to adjust your strategy so you’re not wasting money, ensuring that the right people are interacting with your Adwords campaign.</p>' %}
+              </div>
+              <div class="row">
+                <div class="col-xl-12 quad" id="variety"><i class="fal fa-bullseye float-left" style="font-size:49px;"></i>
+                  <h4>{% text 'Section1BSubHEad' label='Subhead - Variety', value='Test a variety of ads'  %}</h4>
+               {% rich_text 'Section 1B Description' label='Description' html='<p>Also known as split testing, A/B testing holds back part of your audience to test a number of variations of a campaign. In other words, you\'re observing how one version of an ad performs alongside another. You\'ll see the biggest boosts in click-through-rates if you experiment with ads that are drastically different from each other, rather than just moving around a few words. Try focusing on the different benefits your product offers. What are people responding to? Split testing is one of best things you can do for the performance of your AdWords account.</p>' %}
+                </div>
+                <div class="col-xl-12 quad" id="placements"><i class="fal fa-angry float-left" style="font-size:49px;"></i>
+                  <h4>{% text 'Section1CSubhead' label='Subhead - placements', value='Get rid of the bad placements' %}</h4>
+                 {% rich_text 'Section1CDesc' label='Description' html=' <p>
+                        Unfortunately, Google sometimes shows your ads on webpages that have nothing to do with your product. It’s important to regularly check on your display campaigns and look into the web placements your ad is appearing on. There are ‘Site Category’ options that allow you exclude certain types of sites so your ads don’t appear on them. This can include sites with sexually suggestive content, parked domains, error pages, etc.
+                      </p>     ' %}</div>
+                <div class="col-xl-12 quad" id="conversion"><i class="fal fa-star float-left" style="font-size:49px;"></i>
+                  <h4>{% text 'Section1DSubhead' label='Subhead - conversion', value='Take advantage of conversion tracking'  %}</h4>
+                {% rich_text 'Section1DDesc' label='Description' html='  <p>
+                        With AdWords conversion tracking, you can see how effectively your ad clicks lead to valuable customer activity, such as website purchases, phone calls, app downloads, newsletter sign-ups, and more. Setting up conversion tracking is the easiest way to see what keywords are performing best. Having the insight to focus your budget on these keywords can easily boost in results, giving you direct insight into the ROI for your efforts. Simply put, without proper tracking in place, you cannot trace and promote the successful keyword.
+                      </p>' %}
+                </div>
+                <div class="col-xl-12 quad" id="remarketing_tools"><i class="fal fa-repeat-alt float-left" style="font-size:49px;"></i>
+                  <h4>{% text 'Section1ESubhead' label='Subhead - remarketing', value='Don’t neglect remarketing tools'  %}</h4>
+                  {% rich_text 'Section1EDesc' label='Description' html='<p>
+                        Remarketing shows ads to people who\'ve visited your website or used your mobile app. When people leave your website without buying anything, for example, remarketing helps you reconnect with them by showing relevant ads across their different devices. Whether you\'re looking to drive sales activity, increase registrations, or promote awareness of your brand, remarketing can be a strategic component of your advertising.
+                      </p>' %}
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 offset-lg-1 offset-md-1 offset-xl-1">
+
+            <div class="sticky">
+
+
+              <ul class="side_nav">
+                <li><a href="#variety">Test a variety of ads</a></li>
+                <li><a href="#placements">Get rid of bad placements</a></li>
+                <li><a href="#conversion">Take advantage of conversion tracking</a></li>
+                <li><a href="#remarketing_tools">Don't neglect remarketing tools</a></li>
+              </ul>
+              <!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-5d84f520-b75d-4ce7-a12f-24a1d8977bb7"><span class="hs-cta-node hs-cta-5d84f520-b75d-4ce7-a12f-24a1d8977bb7" id="hs-cta-5d84f520-b75d-4ce7-a12f-24a1d8977bb7"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/3221680/5d84f520-b75d-4ce7-a12f-24a1d8977bb7" ><img class="hs-cta-img" id="hs-cta-img-5d84f520-b75d-4ce7-a12f-24a1d8977bb7" style="border-width:0px;" height="1200" width="1200" src="https://no-cache.hubspot.com/cta/default/3221680/5d84f520-b75d-4ce7-a12f-24a1d8977bb7.png"  alt="Optimize Your Business For Results "/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(3221680, '5d84f520-b75d-4ce7-a12f-24a1d8977bb7', {}); </script></span><!-- end HubSpot Call-to-Action Code -->
+
+
+
+            </div>
+
+          </div>
+          
+          
+        </div>
+                </div>
+    </section>
+          
+     <section style="background:#fff;padding:20px;" id="spending" >
+
+
+
+      <div class="container" style="padding: 50px 0;">
+        <div class="row">
+          
+          <div class="col-xl-8 col-lg-8 col-md-8 main-pillar-content">
+            <div id="spend">
+              <hr>
+
+              <img src="https://www.ontargetagency.com/hubfs/images/ad-spend.jpg"  style="position: absolute;
+                                                                                          right: -50%;
+                                                                                          opacity: 0.1;
+                                                                                          top: 20%;width:100%;">
+              <div >
+                <h3>How much should I spend?</h3>
+                <p>Google claims that you do not need to spend a lot of money on AdWords to get a return on the investment. However, many people are paying for clicks that have zero likelihood of turning into a profit. Here are a few ways to adjust
+                  your strategy so you’re not wasting money, ensuring that the right people are interacting with your Adwords campaign.</p>
+              </div>
+              <div class="row">
+                <div class="col-xl-12 quad" id="spend"><i class="fal fa-dollar-sign float-left" style="font-size:49px;"></i>
+                  <h4>Spending Variables</h4>
+                  <p>
+                    Investing your marketing budget in a PPC platform like Google AdWords can have a big impact on your business. According to Google, the average advertiser on AdWords makes two dollars for every dollar they spend. But how much should Google AdWords cost? This will of course depend on your industry niche, company size and a few other variable explained below. 
+                  </p>
+                </div>
+                <div class="col-xl-12 quad" id="ppc"><i class="fal fa-mouse-pointer float-left" style="font-size:49px;"></i>
+                  <h4>Pay per click</h4>
+                  <p>If you’ve heard of paid search, you’re probably also familiar with the term PPC, which stands for pay-per-click. This means that you don’t pay for your ad to be displayed, and you don’t pay when viewers roll over the ad with their mouse – you pay when somebody actually clicks on your ad. This is much better than paying per impression (called CPM) because your ad might be displayed 100,000 times and only one person clicks on it. CPM bidding doesn’t make sense because you’d be running up your costs for essentially nothing. Instead, you pay for each actual click, and then the responsibility is on you to make use of that opportunity to convert the visitor.</p>
+                </div>
+                <div class="col-xl-12 quad" id="auction"><i class="fal fa-hand-holding-usd float-left" style="font-size:49px;"></i>
+                  <h4>Auction-style bidding</h4>
+                  <p>So what determines how much you pay per click? Google uses an auction-style bid to set their prices. For any given keyword, you have the top bidder – let’s say they bid $5 for someone to click on their ad. Then you have the next highest bidder who values a click at $4.50, another at $3.75, another at $3.00, and so on, all the way down to the last person who says that they value a click on their ad for that keyword at, let’s say, $2.25.</p>
+                </div>
+                <div class="col-xl-12 quad" id="quality"><i class="fal fa-award float-left" style="font-size:49px;"></i>
+                  <h4>Quality Scores &amp; Relevance</h4>
+                  <p>While your bid does play a large role in determining whether or not your ad is served for a given keyword, Google also uses something called “quality score” in making these decisions. Quality score is an algorithm that scores each of your ads for relevancy – it looks at how closely your keyword relates to your ad and how closely your ad relates to your landing page content. In other words, Google actually scans your landing pages to ensure that you’re not just buying keywords and directing them to totally irrelevant pages.</p>
+                </div>
+
+                <div style="max-width:90%;margin:0 auto;">
+
+                  <p>
+                    Remember, always be optimizing your campaigns! There’s never a shortage of ways to improve your paid search campaign. Keep making improvements so you can drive your performance up and your costs down and ultimately run a successful PPC campaign.
+                  </p>
+
+                </div>
+              </div>
+            </div>          
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 offset-lg-1 offset-md-1 offset-xl-1">
+
+            <div class="sticky">
+
+              <ul class="side_nav">
+                <li><a href="#spend">Spending variables</a></li>
+                <li><a href="#ppc">Pay per click</a></li>
+                <li><a href="#auction">Auction-style bidding</a></li>
+                <li><a href="#quality">Quality scores and relevance</a></li>
+              </ul>
+
+
+              <!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><span class="hs-cta-node hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806" ><img class="hs-cta-img" id="hs-cta-img-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" style="border-width:0px;" height="300" width="375" src="https://no-cache.hubspot.com/cta/default/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806.png"  alt="New Call-to-action"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(3221680, '33e7e45e-91b4-43c6-b2c1-2e9d7d184806', {}); </script></span><!-- end HubSpot Call-to-Action Code -->
+
+
+
+            </div>
+
+          </div>
+          
+          
+             </div>
+                </div>
+    </section>
+          
+     <section style="background:#fff;padding:20px;" id="targeting" >
+
+
+
+      <div class="container" style="padding: 50px 0;">
+        <div class="row">
+          
+          <div class="col-xl-8 col-lg-8 col-md-8 main-pillar-content">
+
+
+
+            <div id="targeting">
+              <hr>
+
+              <img src="https://www.ontargetagency.com/hubfs/images/geo-map.jpg" style="position: absolute;
+                                                                                        left: -50%;
+                                                                                        opacity: 0.1;
+                                                                                        top: 20%;
+                                                                                        width:100%;">
+              <div >
+                <h3>Targeting Your Ads</h3>
+
+              </div>
+              <div class="row">
+                <div class="col-xl-12 quad" id="geotargeting"><i class="fal fa-map-marked-alt float-left" style="font-size:49px;"></i>
+                  <h4>Geotargeting</h4>
+
+
+                  <p>Want your ads targeted to a specific location? Geotargeting allows your ads to appear in specific geographic locations that you choose such as: countries, states, cities, your business locations, or a radius around a specific location. Location targeting allows your advertising efforts to focus on areas where you’ll find the right customers. 
+                  </p>
+                  <p>30% of mobile searches are related to a location. (Google, 2016) (Source: https://www.hubspot.com/marketing-statistics)
+                  </p>
+                  <p>72% of consumers who did a local search visited a store within five miles. (WordStream, 2016) (Source: https://www.hubspot.com/marketing-statistics)
+                  </p>
+
+
+
+
+
+                </div>
+                <div class="col-xl-12 quad" id="remarketing"><i class="fal fa-code-branch float-left" style="font-size:49px;"></i>
+                  <h4>Remarketing</h4>
+                  <p>
+                    Ever wonder why you will see ads on a specific product after you do an online search for that product? Remarketing ads display ads to people who’ve visited your website. When a visitor leaves your website without making a purchase, remarketing ads help you connect with them by showing relevant ads after they leave your website. Remarketing ads give you access to people when they’re interested in your product or service and reinforces your product after they leave your website. 
+                  </p>     </div>
+                <div class="col-xl-12 quad" id="demographics"><i class="fal fa-user-tag float-left" style="font-size:49px;"></i>
+                  <h4>Demographics</h4>
+                  <p>
+                    Demographic targeting allows you to reach a specific set of ideal customers who fit within a range of demographics such as: age, gender, household income, parental status. Demographic targeting allows you to narrow your target market. 
+                  </p>
+                </div>
+
+              </div>
+            </div>          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 offset-lg-1 offset-md-1 offset-xl-1">
+
+            <div class="sticky">
+              <ul class="side_nav">
+                <li><a href="#geotargeting">Geotargeting</a></li>
+                <li><a href="#remarketing">Remarketing</a></li>
+                <li><a href="#demographics">Demographics</a></li>
+              </ul>
+
+              <!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-aa3d60f9-e72a-40ea-9b93-036701463651"><span class="hs-cta-node hs-cta-aa3d60f9-e72a-40ea-9b93-036701463651" id="hs-cta-aa3d60f9-e72a-40ea-9b93-036701463651"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/3221680/aa3d60f9-e72a-40ea-9b93-036701463651" ><img class="hs-cta-img" id="hs-cta-img-aa3d60f9-e72a-40ea-9b93-036701463651" style="border-width:0px;" height="300" width="375" src="https://no-cache.hubspot.com/cta/default/3221680/aa3d60f9-e72a-40ea-9b93-036701463651.png"  alt="New Call-to-action"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(3221680, 'aa3d60f9-e72a-40ea-9b93-036701463651', {}); </script></span><!-- end HubSpot Call-to-Action Code -->
+
+            </div>
+
+          </div>
+          
+          
+             </div>
+                </div>
+    </section>
+          
+   
+    {% module "module_152509634232252" module_id="2842056" label="foot" %}
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+
+      // Select all links with hashes
+      $('a[href*="#"]')
+      // Remove links that don't actually link to anything
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function(event) {
+        // On-page links
+        if (
+          location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+          && 
+          location.hostname == this.hostname
+        ) {
+          // Figure out element to scroll to
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          // Does a scroll target exist?
+          if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $('html, body').animate({
+              scrollTop: target.offset().top -200
+            }, 1000, function() {
+              // Callback after animation
+              // Must change focus!
+              var $target = $(target);
+              $target.focus();
+              if ($target.is(":focus")) { // Checking if the target was focused
+                return false;
+              } else {
+                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                $target.focus(); // Set focus again
+              };
+            });
+          }
+        }
+      });
+
+    </script> 
+
+    <script>
+      // Hide Header on on scroll down
+      var didScroll;
+      var lastScrollTop = 0;
+      var delta = 5;
+      var navbarHeight = $('header').outerHeight();
+
+      $(window).scroll(function(event){
+        didScroll = true;
+      });
+
+      setInterval(function() {
+        if (didScroll) {
+          hasScrolled();
+          didScroll = false;
+        }
+      }, 250);
+
+      function hasScrolled() {
+        var st = $(this).scrollTop();
+
+        // Make sure they scroll more than delta
+        if(Math.abs(lastScrollTop - st) <= delta)
+          return;
+
+        // If they scrolled down and are past the navbar, add class .nav-up.
+        // This is necessary so you never see what is "behind" the navbar.
+        if (st > lastScrollTop && st > navbarHeight){
+          // Scroll Down
+          $('header').removeClass('nav-down').addClass('nav-up');
+        } else {
+          // Scroll Up
+          if(st + $(window).height() < $(document).height()) {
+            $('header').removeClass('nav-up').addClass('nav-down');
+          }
+        }
+
+        lastScrollTop = st;
+      }
+    </script>
+
+
+    {{ standard_footer_includes }}
+
+  </body>
+
+</html>

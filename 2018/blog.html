@@ -1,0 +1,1020 @@
+<!doctype html>
+<html lang="en-us" xml:lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ content.html_title }}</title>
+    <meta name="description" content="{{ content.meta_description }}">
+    {{ standard_header_includes }}
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-xyMU7RufUdPGVOZRrc2z2nRWVWBONzqa0NFctWglHmt5q5ukL22+lvHAqhqsIm3h" crossorigin="anonymous">
+
+    {% module "module_152509620453033" module_id="2842050" label="head" %}
+   
+
+    <style>
+    
+/* BLog Styles */
+
+    .all-posts-link, .next-posts-link, .previous-posts-link {
+        background: none;
+        padding: 5px 20px;
+        border: 1px solid #000;
+        color: #000 !important;
+        margin: 0 30px;
+      }
+
+      .blog-pagination {
+        text-align: center;
+      }
+
+      #Blog {
+        color: #ffb52f !important;
+      }
+
+      .post-header h2 {
+        font-family: 'Proxima Nova', sans-serif !important;
+        font-size: 32px;
+      }
+
+
+
+
+      .page-title-header ul {
+        max-width: 75%;
+        margin: 0 auto;
+
+      }
+
+      .page-title-header ul li {
+
+        display: inline-block;
+        margin-bottom: 20px;
+
+      }
+
+      .page-title-header ul li a {
+        padding: 10px;
+        margin: 0;
+        color: #fff;
+        background: #ff3818;
+        opacity: .8;
+        z-index: -1;
+
+      }
+
+
+      .sidebar-title-header ul li a {
+        padding: 5px 10px;
+        margin: 0;
+        color: #fff;
+        background: #ff3818;
+        opacity: .8;
+        z-index: -1;
+      }
+
+      .sidebar-title-header ul li {       
+        width: 100%;
+        margin: 5px 5px;
+        text-align: left;
+        list-style-type: none;
+        display: inline-block;
+      }
+
+      .sidebr-title-header ul {
+        display: inline-block;
+      }
+
+      .sidebar-title-header h3 {display:none;}
+
+      #video-header {
+        max-height: 300px;
+      }
+
+      .blog-head-component {
+        background-image: url('https://www.ontargetagency.com/hubfs/Blog/Blog-Header-chat.jpg');
+        background-size: cover;
+        background-position: bottom;
+      }
+
+      .social-component {
+
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+
+      .social-component .sidebar-logo {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        max-width: 120px;
+      }
+      .social-icons-blog {
+        color: #fff;
+        display: flex;
+        justify-content: center;
+      }
+
+      .social-icons-blog i {
+        padding: 0 10px 50px 0;
+      }
+      .cat-component i, .cta-component i, .tags-component i {
+        background: #000;
+        color: #fff;
+        padding: 10px;
+        float: left;
+        margin-right: 20px;
+      }
+
+      .cat-component p, .cta-component p,.tags-component p {
+              font-family: 'Proxima Nova', sans-serif !important;
+        font-size: 24px;
+        font-weight: bold;
+        color: #000;
+      }
+
+      #tab-1 {display:block;}
+
+      #tab-2 {display:none;}
+
+      #tab-3 {display:none;}
+
+      .blog-tabs {
+        display: inline-flex;
+        list-style-type: none;
+        color: #000;
+        justify-content: center;
+        left: 0;
+        margin-left: 0 !important;
+        padding: 0;
+        width: 100%;
+      }
+
+      .tabbed-area img {width:100%}
+
+      .blog-tabs li {
+        background: #2F3C4E;
+        padding: 3px 10px !important;
+        margin: 5px;
+        justify-content: center;
+        cursor: pointer;
+        width: 33.3%;
+        text-align: center;
+        color: #fff;
+        border-radius: 2px;
+      }
+
+      #hs_cos_wrapper_recent_posts h3, #hs_cos_wrapper_post_categories h3 {display:none;}
+
+
+      #hs_cos_wrapper_post_categories ul {
+        margin-left: 0;
+        list-style-type: none;
+        padding: 0;
+      }
+
+
+      #hs_cos_wrapper_post_categories ul li {
+        border-bottom: 1px solid #ECEDEE;
+        padding: 5px 0;
+
+      }
+
+
+      #hs_cos_wrapper_post_categories ul li a {
+
+        color: #4B525C;
+
+      }
+      
+      .post-title img {
+      float: left;width: 40%;-webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px;-ms-border-radius: 4px; border-radius: 4px;
+      }
+      
+      .post-title img {
+  
+    height: 70px;
+    width: 70px;
+}
+      
+      #hs_cos_wrapper_post_categories ul li a::after {
+    content: "\f101";
+    font-family: "Font Awesome 5 Free";
+    float: right;
+}
+      
+    a.link > span {
+            font-family: 'Proxima Nova', sans-serif !important;
+}
+      
+      h1, h2, h3, h4, h5, h6, p, ul, li, a, ol, span, div, section {
+          font-family: 'Proxima Nova', sans-serif !important;
+}
+      
+      
+      .blog_meta p {
+      margin:0 ;
+      }
+      
+    
+      .social-sharing-wrapper {
+      display: block;
+position: absolute;
+left: -100px;
+top: 150px;
+width: 100px;
+      }
+      
+       .sticky {
+            position: sticky;
+            top: 575px;
+        }
+      
+      aside {
+      margin-top: 203px;
+      }
+      
+      .features-boxed h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    color: inherit;
+}
+      
+      
+      .snip1527 figcaption {
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: -150px;
+}
+      .snip1527 p {
+    font-size: .8em;
+    line-height: 1.4;
+    margin-bottom: 0;
+    color: #fff;
+}
+      
+      .snip1527 h3 {
+  
+    margin-bottom: 10px;
+   
+}
+      
+      .card-bg-scale {
+    background-size: cover !important;
+    height: 385px;
+    transition: ease .25s all;
+    background-position: center center !important;
+}
+      
+      .post-title-related {
+      cursor:pointer;   margin-bottom: 20px;display: flex; overflow: hidden;position:relative;margin-right: 10px; width:100%;
+      }
+      
+         .meta_blog_section {
+      width: 100%;
+display: flex;
+flex-direction: column;
+      }
+      
+      .blog_meta {
+    width: auto;
+    text-align: center;
+    border: 1px solid #A6ACB3;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 0;
+    background: #F6F6F6;
+    margin-bottom: 5px;
+}
+      
+      
+      .rel-post-section {display:block;}
+      
+      @media(min-width:768px) {
+        .post-title-related {
+      cursor:pointer;   margin-bottom: 20px;display: flex; overflow: hidden;position:relative;margin-right: 10px; width:33.3%
+      }
+        
+           .meta_blog_section {
+      width: 100%;
+display: flex;
+flex-direction: row;
+      }
+        
+          .blog_meta {
+      width: auto;
+text-align: center;
+border: 1px solid #A6ACB3;
+border-radius: 5px;
+padding: 5px 10px;
+margin-right: 20px;
+background: #F6F6F6;
+margin-bottom: 20px;
+      }
+        
+              .rel-post-section {display:flex;}
+
+        
+        
+      }
+
+.card-bg-scale {
+    background-size: cover !important;
+    height: 385px !important;
+    transition: ease .25s all;
+    background-position: center center !important;
+}
+
+
+.social-icons-blog a {
+color:#fff; 
+}
+      
+      .cat-component a:link {
+    text-decoration: none !important;
+}
+      
+
+/* End Blog Styles */ 
+    </style>
+  </head>
+  <body>
+
+    {% module "module_152509650118873" module_id="2841936" label="nav" %}
+
+    <div class="container-fluid d-flex justify-content-center align-items-center align-content-center video-parallax-container blog-head-component" id="video-header">
+      <div class="col-12 col-sm-7 col-lg-10 d-inline-block intro-logo page-title-header">
+        <h1 class="text-uppercase" style="color:rgb(255,255,255);height:auto;">ASK ON-TARGET!<br></h1>
+      </div>
+    </div>
+    <div class="features-boxed">
+      <div class="container padding50">
+
+       
+
+          <!-- Blog -->
+
+          {% if is_listing_view %}
+        <style>
+          .side_list {display:none !important;}
+        </style>
+        <div class="row">
+         <div class="col-md-8">
+
+
+                  <div class="post-listing ">
+
+                    {% if blog_author %}
+                    <div class="hs-author-profile">
+                      <h2 class="hs-author-name">{{ blog_author.display_name }}</h2>
+
+                      {% if blog_author.avatar %}
+                      <div class="hs-author-avatar"> <img width="35 px" src="{{ blog_author.avatar }}" alt="{{ blog_author.display_name }}"> </div>
+                      {% endif %}
+
+                      <div class="hs-author-bio">{{ blog_author.bio }}</div>
+
+                      {% if blog_author.has_social_profiles %}
+                      <div class="hs-author-social-section"> <span class="hs-author-social-label">Find me on:</span>
+                        <div class="hs-author-social-links">
+                          {% if blog_author.facebook %} 
+                          <a href="{{ blog_author.facebook }}" target="_blank" class="hs-author-social-link hs-social-facebook">[fa icon="facebook-square"]
+                            <span class="hs-screen-reader-text">Facebook</span></a> 
+                          {% endif %} {% if blog_author.linkedin %} 
+                          <a href="{{ blog_author.linkedin }}" target="_blank" class="hs-author-social-link hs-social-linkedin">[fa icon="linkedin-square"]
+                            <span class="hs-screen-reader-text">Linkedin</span></a> {% endif %} {% if blog_author.twitter %}
+                          <a href="{{ blog_author.twitter }}" target="_blank" class="hs-author-social-link hs-social-twitter">[fa icon="twitter-square"]
+                            <span class="hs-screen-reader-text">Twitter</span></a> {% endif %} {% if blog_author.google_plus %} 
+                          <a href="{{ blog_author.google_plus }}?rel=author" target="_blank" class="hs-author-social-link hs-social-google-plus">[fa icon="google-plus-square"]
+                            <span class="hs-screen-reader-text">Google Plus</span></a> {% endif %}
+                        </div>
+                      </div>
+                      {% endif %}
+                    </div>
+
+
+                    <br />
+                    <h2 class="hs-author-listing-header">Recent Resources</h2>
+
+                    {% endif %}
+
+                    <div class="resource cards row">
+
+                      {% for content in contents %}
+
+
+                      <figure id="{{content.id}}" class="snip1527 col-md-12">
+
+
+                        <div class="image card-bg-scale" style="background:url('{{ content.post_list_summary_featured_image }}'); " onclick="window.location.href='{{content.absolute_url}}'">
+
+                          <a href="{{content.absolute_url}}"><img src="{{ content.post_list_summary_featured_image }}" alt="pr-sample23" style="visibility:hidden;"></a>
+
+                        </div>
+                        <figcaption>
+                          <div class="date"><span class="day">{{ content.publish_date|datetimeformat('%e')}}</span><span class="month">{{ content.publish_date|datetimeformat('%b')}}</span></div>
+                          <h3><a href="{{content.absolute_url}}">{{ content.name }}</a></h3>
+                          <div style="color:#fff"> {{ content.post_list_content | safe | truncate(250) }}</div>
+                        </figcaption>
+
+                      </figure>
+
+
+                      {% endfor %} 
+                    
+                    </div>
+                  </div>
+ {% if not simple_list_page %}
+                <div class="blog-pagination">
+                    {% if last_page_num %}
+                        <a class="previous-posts-link" href="{{ blog_page_link(last_page_num) }}">Previous</a>
+                    {% endif %}
+                        <a class="all-posts-link" href="{{ group.absolute_url }}/all">All posts</a>
+                    {% if next_page_num %}
+                        <a class="next-posts-link" href="{{ blog_page_link(next_page_num) }}">Next</a>
+                    {% endif %}
+                </div>
+                {% endif %}
+
+          </div>
+
+
+        <div class="col-md-4 sidebar-component">
+          <!-- Social -->
+          <div class="social-component">
+            <img src="https://www.ontargetagency.com/hubfs/otm-logo.png" class="sidebar-logo">
+            <br>
+
+            <p style="text-transform:uppercase;color:#fff;font-size: 18px;font-weight: bold;"> 
+              On-Target! Marketing
+            </p>
+
+            <p  style="color: #fff; font-size: 14px;">We love what we do so much, we just can’t shut up about it! Come by weekly and get useful tips and advice for growing companies. </p>
+
+            <br>
+         <div class="social-icons-blog">
+              <a href="https://www.facebook.com/OnTargetMarketingAndAdvertising/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/OnTargetAgency" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://plus.google.com/104751295766045478379" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+              <a href="https://www.linkedin.com/company/on-target-marketing-&-advertising/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.youtube.com/user/OnTargetAgency/" target="_blank"><i class="fab fa-youtube"></i></a>
+             
+            </div>
+          </div>
+
+
+          <!-- Categories -->
+          <div class="cat-component">
+
+            <i class="fas fa-folder-open"></i> <p>Categories</p>
+<div style="display: flex;">
+            <div style="background:#2F3C4E !important; height:2px;width: 46px;"></div>            <div style="background:#ECEDEE;height: 2px;width: 100%;"></div>
+          </div>
+            {% set topic_posts = blog_recent_topic_posts('default', 'marketing-tips', 5) %} 
+            {% for topic_post in topic_posts %}
+            <!-- <div class="post-title">{{ topic_post.name }}</div>-->
+            {% endfor %} 
+
+            {% post_filter "post_categories" label="Post Categories", expand_link_text="see all", filter_type="topic", list_title="", max_links=10, order_by="post_count", select_blog="default" %} 
+          </div>
+          
+         
+
+
+
+          <!-- BLOG Tabber  -->
+
+
+
+
+          <div class="tab-component tabber-wrap blog-tabber" style="positon:relative;">
+
+
+
+            <ul class="blog-tabs">
+              <li class="nav-item" id="tab-1-btn">Popular</li>
+              <li class="nav-item" id="tab-2-btn">Latest</li>
+<!--              <li class="nav-item" id="tab-3-btn">Comments</li>-->
+            </ul>
+        
+
+
+
+
+            <div class="">
+              <div class="" id="tab-1"> 
+
+                {% set latest_posts = blog_recent_posts('default', 5) %} 
+
+                {% for latest_post in latest_posts %}
+
+                <div class="post-title" style="   margin-bottom: 20px;display: flex; overflow: hidden;">
+                  <div style="width: 70px;margin-right: 10px;">
+                                    <a href="{{ latest_post.absolute_url }}"><img src="{{ latest_post.featured_image }}" alt="{{ latest_post.name |truncate(2, True, '..')}}"></a>
+                  </div>
+                  <div>
+                                    <a href="{{ latest_post.absolute_url }}" style=" color:#2F3C4E">{{ latest_post.name |truncate(25, True, '..')}}</a><br>
+              
+                    <div style="font-size: 14px;color:#9BA1A8;">
+  <!--                    <i class="far fa-user"></i> BY: <span style="color:#E74C3C !important;text-transform:uppercase;">{{latest_post.blog_post_author.display_name}}</span> <br>-->
+                  <i class="far fa-clock"></i> {{ latest_post.publish_date_localized }}
+                      
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+
+                {% endfor %}
+
+              </div>
+              <div class="" id="tab-2">
+
+
+                {% set pop_posts = blog_popular_posts('default', 5) %} 
+
+                {% for pop_post in pop_posts %}
+
+
+              <div class="post-title" style="   margin-bottom: 20px;display: flex; overflow: hidden;">
+                  <div style="width: 70px;margin-right: 10px;">
+                                    <a href="{{ pop_post.absolute_url }}"><img src="{{ pop_post.featured_image }}" alt="{{ pop_post.name |truncate(2, True, '..')}}"></a>
+                  </div>
+                  <div>
+                                    <a href="{{ pop_post.absolute_url }}" style=" color:#2F3C4E">{{ pop_post.name |truncate(25, True, '..')}}</a><br>
+              
+                    <div style="font-size: 14px;color:#9BA1A8;">
+<!--                      <i class="far fa-user"></i> BY: <span style="color:#E74C3C !important;text-transform:uppercase;">{{pop_post.blog_post_author.display_name}}</span> <br>-->
+                  <i class="far fa-clock"></i> {{ pop_post.publish_date_localized }}
+                      
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+                {% endfor %}
+
+
+              </div>
+              <div class="" id="tab-3">
+
+              </div>
+            </div>
+
+            <br>
+
+          </div>
+
+
+          <!-- CTA -->
+
+          <div class="cta-component">
+            <i class="fas fa-bookmark"></i> <p>Advertisement</p>
+            
+            <div style="display: flex;">
+            <div style="background:#2F3C4E !important; height:2px;width: 38px;"></div>            <div style="background:#ECEDEE;height: 2px;width: 100%;"></div>
+          </div>
+            <br>
+
+            {% cta "module_1502987064716160" wrapping_html='', per_widget_wrapper_html='', overrideable=true, embed_code='
+                                                    <!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><span class="hs-cta-node hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806" ><img class="hs-cta-img" id="hs-cta-img-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" style="border-width:0px;" height="300" width="375" src="https://no-cache.hubspot.com/cta/default/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806.png"  alt="New Call-to-action"/></a></span>
+                                                    <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+                                                    <script type="text/javascript">
+                                                        hbspt.cta.load(3221680, \'33e7e45e-91b4-43c6-b2c1-2e9d7d184806\', {});
+                                                    </script>
+                                                    </span>
+                                                    <!-- end HubSpot Call-to-Action Code -->', guid='33e7e45e-91b4-43c6-b2c1-2e9d7d184806', image_html='
+                                                    <!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" data-hs-img-pg="33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-wrapper-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><span class="hs-cta-node hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><a href="https://cta-image-cms2.hubspot.com/ctas/v2/public/cs/ci/?pg=33e7e45e-91b4-43c6-b2c1-2e9d7d184806&pid=3221680&ecid={{encrypted_contact_id}}&hseid={{email_campaign_id}}&hsic={{impersonated_contact}}" ><img class="hs-cta-img" id="hs-cta-img-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" style="border-width:0px;" mce_noresize="1" height="300" width="375" src="https://cta-image-cms2.hubspot.com/ctas/v2/public/cs/il/?pg=33e7e45e-91b4-43c6-b2c1-2e9d7d184806&pid=3221680&ecid={{encrypted_contact_id}}&hseid={{email_campaign_id}}&hsic={{impersonated_contact}}"  alt="New Call-to-action"/></a></span></span>
+                                                    <!-- end HubSpot Call-to-Action Code -->', image_src='https://no-cache.hubspot.com/cta/default/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806.png', label='Call-to-Action' %}
+
+            <br>
+          </div>
+          <br>
+
+          
+          
+          <!-- TAGS -->
+          <div class="tags-component" style="display:none;">
+            <i class="fas fa-tags"></i> <p>Tags</p>
+            
+            <div style="display: flex;">
+            <div style="background:#2F3C4E !important; height:2px;width: 49px;"></div>            <div style="background:#ECEDEE;height: 2px;width: 100%;"></div>
+          </div>
+            
+            {{ blog_tags() }}
+
+          </div>
+
+        </div>
+        </div>
+        
+
+          {% else %}
+        
+        <div class="row">
+          <div class="col-md-8">
+          
+            <div class="social-sharing-wrapper sticky" style="display:none;"> {% blog_social_sharing "blog_social_sharing" overrideable=True, label='Blog Social Sharing' %} </div>
+          
+          <div class="blog-section ">  
+
+            <div class="section post-header clearfix">
+              <h2> <a href="{{ content.absolute_url }}" id="hubspot-name" class="link hubspot-editable" data-hubspot-form-id="name" data-hubspot-name="Blog Title">{{ content.name }}</a> </h2>
+              
+              <div class="meta_blog_section">
+              
+              <!--     <div class="blog_meta">
+              
+                    <p id="hubspot-author_data" class="hubspot-editable" data-hubspot-form-id="author_data" data-hubspot-name="Blog Author" style="margin:0;"> 
+               
+                by {% if content.blog_post_author %} 
+                <a class="author-link" href="{{ group.absolute_url }}/author/{{ content.blog_post_author.slug }}">{{ content.blog_post_author.display_name }}</a> 
+            {% endif %}</p>
+              </div>-->
+              
+           <div class="blog_meta">
+                <p style="color:#000;">
+                {{ content.publish_date_localized }}
+                </p>
+                </div>
+              
+              
+             <div class="blog_meta">
+                   {% if content.topic_list %}
+
+            <p id="hubspot-topic_data" style="text-transform: capitalize;"> Topics: 
+              {% for topic in content.topic_list %} 
+              <a class="topic-link" href="{{ group.absolute_url }}/topic/{{ topic.slug }}">{{ topic.name }}</a>
+              {% if not loop.last %},
+              {% endif %} 
+              {% endfor %} 
+            </p> 
+            {% endif %}
+              </div>
+                
+              </div>
+              
+              
+              
+{% endif %} 
+              {% endif %}
+            
+            </div>
+            <div class="section post-body" id="holder">
+              
+              <div>
+                {% if content.post_list_summary_featured_image %}
+             
+                  <img src="{{ content.post_list_summary_featured_image }}" alt="{{ content.featured_image_alt_text }}" style="margin-bottom: 30px;">
+              {% endif %}
+
+                <div id="blog-art-hold">
+                              {{ content.post_body }} 
+                </div>
+              {% raw_html "raw_html"label='Video Box' %} 
+              {% widget_block rich_text "my_rich_text_module" overrideable=True, label='After Video Post Body' %} 
+              {% widget_attribute "html" %}
+              {% end_widget_attribute %} 
+              {% end_widget_block %}
+              </div>
+              
+          
+
+            </div> 
+
+          </div>
+           
+        </div>
+                  <!-- Sidebar -->
+        <aside class="col-md-4 sidebar-component side_list">
+          <!-- Social -->
+          <div class="social-component" style="display:none;">
+            <img src="https://www.ontargetagency.com/hubfs/otm-logo.png" class="sidebar-logo">
+            <br>
+
+            <p style="text-transform:uppercase;color:#fff;font-size: 18px;font-weight: bold;"> 
+              On-Target! Marketing
+            </p>
+
+            <p style=" color: #fff;font-size: 14px;">We love what we do so much, we just can’t shut up about it! Come by weekly and get useful tips and advice for growing companies. </p>
+
+            <br>
+            <div class="social-icons-blog">
+              <a href="https://www.facebook.com/OnTargetMarketingAndAdvertising/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/OnTargetAgency" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://plus.google.com/104751295766045478379" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+              <a href="https://www.linkedin.com/company/on-target-marketing-&-advertising/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.youtube.com/user/OnTargetAgency/" target="_blank"><i class="fab fa-youtube"></i></a>
+             
+            </div>
+          </div>
+          
+          <!-- CTA -->
+
+          <div class="cta-component" style="margin-bottom:30px;">
+            <i class="fas fa-bookmark"></i> <p>Advertisement</p>
+            
+            <div style="display: flex;">
+            <div style="background:#2F3C4E !important; height:2px;width: 38px;"></div>            <div style="background:#ECEDEE;height: 2px;width: 100%;"></div>
+          </div>
+            <br>
+
+            {% cta "module_1502987064716160" wrapping_html='', per_widget_wrapper_html='', overrideable=true, embed_code='
+                                                    <!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><span class="hs-cta-node hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806" ><img class="hs-cta-img" id="hs-cta-img-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" style="border-width:0px;" height="300" width="375" src="https://no-cache.hubspot.com/cta/default/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806.png"  alt="New Call-to-action"/></a></span>
+                                                    <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+                                                    <script type="text/javascript">
+                                                        hbspt.cta.load(3221680, \'33e7e45e-91b4-43c6-b2c1-2e9d7d184806\', {});
+                                                    </script>
+                                                    </span>
+                                                    <!-- end HubSpot Call-to-Action Code -->', guid='33e7e45e-91b4-43c6-b2c1-2e9d7d184806', image_html='
+                                                    <!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" data-hs-img-pg="33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-wrapper-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><span class="hs-cta-node hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><a href="https://cta-image-cms2.hubspot.com/ctas/v2/public/cs/ci/?pg=33e7e45e-91b4-43c6-b2c1-2e9d7d184806&pid=3221680&ecid={{encrypted_contact_id}}&hseid={{email_campaign_id}}&hsic={{impersonated_contact}}" ><img class="hs-cta-img" id="hs-cta-img-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" style="border-width:0px;" mce_noresize="1" height="300" width="375" src="https://cta-image-cms2.hubspot.com/ctas/v2/public/cs/il/?pg=33e7e45e-91b4-43c6-b2c1-2e9d7d184806&pid=3221680&ecid={{encrypted_contact_id}}&hseid={{email_campaign_id}}&hsic={{impersonated_contact}}"  alt="New Call-to-action"/></a></span></span>
+                                                    <!-- end HubSpot Call-to-Action Code -->', image_src='https://no-cache.hubspot.com/cta/default/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806.png', label='Call-to-Action' %}
+
+            <br>
+          </div>
+
+
+          <!-- Categories -->
+          <div class="cat-component">
+
+            <i class="fas fa-folder-open"></i> <p>Categories</p>
+<div style="display: flex;">
+            <div style="background:#2F3C4E !important; height:2px;width: 46px;"></div>            <div style="background:#ECEDEE;height: 2px;width: 100%;"></div>
+          </div>
+            {% set topic_posts = blog_recent_topic_posts('default', 'marketing-tips', 5) %} 
+            {% for topic_post in topic_posts %}
+            <!-- <div class="post-title">{{ topic_post.name }}</div>-->
+            {% endfor %} 
+
+            {% post_filter "post_categories" label="Post Categories", expand_link_text="see all", filter_type="topic", list_title="", max_links=10, order_by="post_count", select_blog="default" %} 
+          </div>
+          
+         
+
+
+
+          <!-- BLOG Tabber  -->
+
+
+
+
+          <div class="tab-component tabber-wrap blog-tabber" style="positon:relative;">
+
+
+
+            <ul class="blog-tabs">
+              <li class="nav-item" id="tab-1-btn">Popular</li>
+              <li class="nav-item" id="tab-2-btn">Latest</li>
+<!--              <li class="nav-item" id="tab-3-btn">Comments</li>-->
+            </ul>
+        
+
+
+
+
+            <div class="">
+              <div class="" id="tab-1"> 
+
+                {% set latest_posts = blog_recent_posts('default', 5) %} 
+
+                {% for latest_post in latest_posts %}
+
+                <div class="post-title" style="   margin-bottom: 20px;display: flex; overflow: hidden;">
+                  <div style="width: 70px;margin-right: 10px;">
+                                    <a href="{{ latest_post.absolute_url }}"><img src="{{ latest_post.featured_image }}" alt="{{ latest_post.name |truncate(2, True, '..')}}"></a>
+                  </div>
+                  <div>
+                                    <a href="{{ latest_post.absolute_url }}" style=" color:#2F3C4E">{{ latest_post.name |truncate(25, True, '..')}}</a><br>
+              
+                    <div style="font-size: 14px;color:#9BA1A8;">
+<!--                      <i class="far fa-user"></i> BY: <span style="color:#E74C3C !important;text-transform:uppercase;">{{latest_post.blog_post_author.display_name}}</span> <br>-->
+                  <i class="far fa-clock"></i> {{ latest_post.publish_date_localized }}
+                      
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+
+                {% endfor %}
+
+              </div>
+              <div class="" id="tab-2">
+
+
+                {% set pop_posts = blog_popular_posts('default', 5) %} 
+
+                {% for pop_post in pop_posts %}
+
+
+              <div class="post-title" style="   margin-bottom: 20px;display: flex; overflow: hidden;">
+                  <div style="width: 70px;margin-right: 10px;">
+                                    <a href="{{ pop_post.absolute_url }}"><img src="{{ pop_post.featured_image }}" alt="{{ pop_post.name |truncate(2, True, '..')}}"></a>
+                  </div>
+                  <div>
+                                    <a href="{{ pop_post.absolute_url }}" style=" color:#2F3C4E">{{ pop_post.name |truncate(25, True, '..')}}</a><br>
+              
+                    <div style="font-size: 14px;color:#9BA1A8;">
+<!--                      <i class="far fa-user"></i> BY: <span style="color:#E74C3C !important;text-transform:uppercase;">{{pop_post.blog_post_author.display_name}}</span> <br>-->
+                  <i class="far fa-clock"></i> {{ pop_post.publish_date_localized }}
+                      
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+                {% endfor %}
+
+
+              </div>
+              <div class="" id="tab-3">
+
+              </div>
+            </div>
+
+            <br>
+
+          </div>
+
+
+          <!-- CTA -->
+
+          <div class="cta-component">
+            <i class="fas fa-bookmark"></i> <p>Advertisement</p>
+            
+            <div style="display: flex;">
+            <div style="background:#2F3C4E !important; height:2px;width: 38px;"></div>            <div style="background:#ECEDEE;height: 2px;width: 100%;"></div>
+          </div>
+            <br>
+
+            {% cta "module_1502987064716160" wrapping_html='', per_widget_wrapper_html='', overrideable=true, embed_code='
+                                                    <!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><span class="hs-cta-node hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806" ><img class="hs-cta-img" id="hs-cta-img-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" style="border-width:0px;" height="300" width="375" src="https://no-cache.hubspot.com/cta/default/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806.png"  alt="New Call-to-action"/></a></span>
+                                                    <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+                                                    <script type="text/javascript">
+                                                        hbspt.cta.load(3221680, \'33e7e45e-91b4-43c6-b2c1-2e9d7d184806\', {});
+                                                    </script>
+                                                    </span>
+                                                    <!-- end HubSpot Call-to-Action Code -->', guid='33e7e45e-91b4-43c6-b2c1-2e9d7d184806', image_html='
+                                                    <!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" data-hs-img-pg="33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-wrapper-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><span class="hs-cta-node hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806"><a href="https://cta-image-cms2.hubspot.com/ctas/v2/public/cs/ci/?pg=33e7e45e-91b4-43c6-b2c1-2e9d7d184806&pid=3221680&ecid={{encrypted_contact_id}}&hseid={{email_campaign_id}}&hsic={{impersonated_contact}}" ><img class="hs-cta-img" id="hs-cta-img-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" style="border-width:0px;" mce_noresize="1" height="300" width="375" src="https://cta-image-cms2.hubspot.com/ctas/v2/public/cs/il/?pg=33e7e45e-91b4-43c6-b2c1-2e9d7d184806&pid=3221680&ecid={{encrypted_contact_id}}&hseid={{email_campaign_id}}&hsic={{impersonated_contact}}"  alt="New Call-to-action"/></a></span></span>
+                                                    <!-- end HubSpot Call-to-Action Code -->', image_src='https://no-cache.hubspot.com/cta/default/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806.png', label='Call-to-Action' %}
+
+            <br>
+          </div>
+          <br>
+
+          
+          
+          <!-- TAGS -->
+          <div class="tags-component" style="display:none;">
+            <i class="fas fa-tags"></i> <p>Tags</p>
+            
+            <div style="display: flex;">
+            <div style="background:#2F3C4E !important; height:2px;width: 49px;"></div>            <div style="background:#ECEDEE;height: 2px;width: 100%;"></div>
+          </div>
+            
+            {{ blog_tags() }}
+
+          </div>
+
+        </aside>
+      
+        </div>   
+          {% endif %}
+ 
+
+
+      </div>  
+    </div>
+    
+   
+    <div class="container" style="display:none;">
+    <!-- Related -->
+    <div id="related_posts" style="">
+  
+       <i class="fas fa-tags" style="background: #000;padding: 10px;float: left; margin-right: 20px;color:#fff;"></i>
+      <p style="font-size: 24px;font-weight: bold;color: #000;">Related Posts</p>
+     
+      <br>
+      <div style="display: flex;margin-bottom: 15px;margin-top: -10px;">
+            <div style="background:#2F3C4E !important; height:2px;width: 47px;"></div>            <div style="background:#ECEDEE;height: 2px;width: 100%;"></div>
+          </div>
+                {% set latest_posts = blog_popular_posts('default', 3) %} 
+      
+     
+      <div class="rel-post-section">
+      
+                {% for latest_post in latest_posts %}
+
+                <div class="post-title post-title-related" onclick="window.location.href='{{ latest_post.absolute_url }}'; return false;">
+                  <div style="width: 100%;" >
+                                    <a href="{{ latest_post.absolute_url }}" style="height: 100%;
+display: block;"><img style="width:100%;height:auto;" src="{{ latest_post.featured_image }}" alt="{{ latest_post.name |truncate(2, True, '..')}}"></a>
+                  </div>
+                <div style="position:absolute;top:0; left:0;display:flex;margin-right: 10px;width: 100%;height: 100%;background: #0009;">
+
+            <div style="font-size: 14px;color:#FFF;width: 100%;align-self: end;padding: 10px;">
+                        <a href="{{ latest_post.absolute_url }}" style=" color:#FFF">{{ latest_post.name |truncate(25, True, '..')}}</a><br>
+             
+                       <i class="far fa-clock"></i> {{ latest_post.publish_date_localized }}
+                      
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+
+                {% endfor %}
+        
+        </div>
+      
+  
+    </div>
+
+    </div>
+   
+    {% module "module_152509634232252" module_id="2842056" label="foot" %}      
+  
+ 
+
+    {{ standard_footer_includes }}
+
+    
+       <script>
+      var $t = jQuery.noConflict();
+      $t(document).ready(function () {
+
+
+
+
+        $t('#tab-1-btn').click(function () {
+          $t('#tab-1').css('display', 'block');
+          $t('#tab-2').css('display', 'none');
+          $t('#tab-3').css('display', 'none');
+        });
+
+        $t('#tab-2-btn').click(function () {
+          $t('#tab-2').css('display', 'block');
+          $t('#tab-1').css('display', 'none');
+          $t('#tab-3').css('display', 'none');
+        });
+
+
+        $t('#tab-3-btn').click(function () {
+          $t('#tab-3').css('display', 'block');
+          $t('#tab-1').css('display', 'none');
+          $t('#tab-2').css('display', 'none');
+        });
+      });
+    </script>
+
+     <script>
+      
+       var $o = jQuery.noConflict();
+    $o("#blog-art-hold > #hs_cos_wrapper_post_body > p:nth-child(7)").after("<div id=\"mid-blog\" style=\"margin-bottom:20px\"></div>");
+      
+      
+      $o( "#mid-blog" ).append( $o( "#related_posts" ) );
+       
+       $o("#related_posts").css('display', 'block');
+       
+       
+    </script>
+
+    
+    <script>
+      
+             var $m = jQuery.noConflict();
+    $m(document).ready(function() {
+
+var ElementHeight = $( ".post-header" ).height();
+      //var ElementHeights = ElementHeight + 30; 
+$m("aside").css("margin-top",ElementHeight);
+      $m(window).on('resize',function(){location.reload();});
+});
+           
+    </script>
+    
+     <script>
+                        document.getElementById("{{content.id}}").setAttribute('onclick', 'location.href = "{{content.absolute_url}}"');
+                      </script>
+
+
+
+
+  </body>
+
+</html>
+
+
+
+
+

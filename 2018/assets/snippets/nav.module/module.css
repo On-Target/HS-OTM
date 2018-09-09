@@ -1,0 +1,12 @@
+.all-services {
+margin: 0;
+background: #000;
+color: #fff !important;
+padding: 10px 25px;
+top: -8px;
+position: relative;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}

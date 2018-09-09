@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en-us" xml:lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ content.html_title }}</title>
+        <meta name="description" content="{{ content.meta_description }}">
+        {{ standard_header_includes }}
+      
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+  {% module "module_152509620453033" module_id="2842050" label="head" %}
+
+      
+         <style>
+        {% if page_meta.name == "Contact Our Agency" %}
+        
+        #Contact {
+        color: #ffb52f !important;
+        }
+        
+        {% endif %}
+           
+           
+           
+           #video-header {
+    max-height: 300px;
+}
+           .co-heading {font-size: 36px;}
+      </style>
+      
+      
+      
+    </head>
+<body>
+
+   {% module "module_152509650118873" module_id="2841936" label="nav" %}
+  
+  
+  
+   <div class="container-fluid d-flex justify-content-center align-items-center align-content-center video-parallax-container" id="video-header" style="background:#000">
+        <div class="col-12 col-sm-7 col-lg-10 d-inline-block intro-logo page-title-header" data-aos="fade" data-aos-duration="500">
+            <h1 class="text-uppercase" style="color:rgb(255,255,255);height:auto;">{% inline_rich_text "inline_rich_text" field="my_text_field" html="LOGIN<br>" %}</h1><a class="btn btn-primary left-btn" role="button" href="/consultation">SCHEDULE A MEETING</a><a class="btn btn-primary" role="button" href="/contact-us">ASK AN ON-TARGET! EXPERT</a></div>
+    
+<!--<video height="auto" autoplay="" muted="" loop=""><source src="https://www.ontargetagency.com/hubfs/Video/Contact%20Us.mp4" type="audio/mp4" wp-acf="[{'type':'url','name':'video','label':'Video','wrapper':{'width':30}}]" wp-attr="[{'target':'src','replace':'%1'}]"></video>-->
+     
+     
+</div>
+  
+  
+  <div class="container" style="padding: 50px 0;">
+    
+ <form name="loginForm" action="https://ontargetagency.teamwork.com/launchpad/login/projects" method="post">
+    <input type="hidden" name="automaticSubmit" value="true">
+    <div>
+        <label for="username">Username:</label><br /><input type="text" name="username" id="username" /><br />
+        <label for="password">Password:</label><br /><input type="password" name="password" id="password" /><br />
+
+        <input type="submit" value="Login" />
+    </div>
+</form>
+  
+  </div>
+  
+  
+  
+ 
+  
+  
+       {% module "module_152509634232252" module_id="2842056" label="foot" %}
+  
+  {{ standard_footer_includes }}
+  
+</body>
+
+</html>
+
+
+
+
+

@@ -1,0 +1,23 @@
+{
+  "contains_overridable_hubl_tags" : false,
+  "content_tags" : [ ],
+  "css_assets" : [ ],
+  "editable_contexts" : [ ],
+  "external_js" : [ ],
+  "extra_classes" : "",
+  "global" : false,
+  "help_text" : "",
+  "host_template_types" : [ "PAGE" ],
+  "js_assets" : [ {
+    "resource_id" : 6056436330,
+    "url" : null,
+    "name" : "filterize.js",
+    "autoload" : true
+  } ],
+  "label" : null,
+  "other_assets" : [ ],
+  "placement_rules" : [ ],
+  "purchased" : false,
+  "tags" : [ ],
+  "is_available_for_new_content" : true
+}

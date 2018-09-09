@@ -1,0 +1,1754 @@
+<!doctype html>
+<html lang="en-us" xml:lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ content.html_title }}</title>
+    <meta name="description" content="{{ content.meta_description }}"> {{ standard_header_includes }}
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> {% module "module_152509620453033" module_id="2842050" label="head" %}
+
+    <style>
+        .sidenav a {
+
+            font-weight: bold;
+
+
+        }
+
+        .sticky {
+            position: sticky;
+            top: 200px;
+        }
+
+/*        .main-pillar-content p {
+            font-size: 32px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 0;
+            text-align: left;
+        }
+
+*/
+        .main-pillar-content p.heading {
+            font-size: 27px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 0;
+            text-align: left;
+        }
+
+        .main-pillar-content h3 {
+            font-size: 32px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 0;
+            text-align: left;
+        }
+
+
+        .main-pillar-content h4 {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 0;
+            text-align: left;
+        }
+
+        .pillar-title-section {
+            max-width: 100%;
+            margin: 25px auto;
+        }
+
+
+
+        .fal,
+        .fas {
+            margin-right: 15px;
+            background: #000;
+            border-radius: 100%;
+            height: 50px;
+            width: 50px;
+            text-align: center;
+            align-self: center;
+            display: inline-flex !important;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 24px !important;
+        }
+
+
+        li {
+            display: inline-flex;
+            padding: 30px 30px;
+        }
+
+        .sticky#sticky-sub-nav {
+            top: 80px;
+        }
+
+        .header-btn {
+            background: #262626 !important;
+            border: none !important;
+
+            width: 300px;
+            color: #fff !important;
+        }
+
+        .header-btn:hover {
+            background: #e2e2e2 !important;
+
+        }
+
+        #best,
+        #spend,
+        #targeting {
+            position: relative;
+        }
+
+        #best:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            /*background-image: url(https://www.ontargetagency.com/hubfs/images/blue-web-layout.png);*/
+            opacity: 0.2;
+            background-size: 50%;
+            background-position: top right;
+            background-repeat: no-repeat;
+        }
+
+
+        #spend:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            /*    background-image: url(https://www.ontargetagency.com/hubfs/images/rocket.png);*/
+            opacity: 0.2;
+            background-size: 50%;
+            background-position: top right;
+            background-repeat: no-repeat;
+        }
+
+        .hs-cta-img {
+            width: 100%;
+            height: auto;
+        }
+
+        hr {
+
+            left: 0;
+            position: relative;
+            padding: 0;
+            margin: 20px 0;
+            height: 5px;
+            background: #000;
+            width: 20%;
+        }
+
+        img .inbound-images img,
+        .in-img img {
+            width: 100%;
+        }
+
+
+
+
+        #section1,
+        #section3,
+        #section5,
+        #section7,
+        #section9,
+        #section11,
+        #section13,
+        #section15,
+        #section17,
+        #section19,
+        #section21,
+        #section23,
+        #section25,
+        #section27,
+        #section29,
+        #section31,
+        #section33,
+        #section35,
+        #section37{
+
+            background: #f8f8f8;
+            padding: 30px 20px;
+            margin: 30px 0;
+            box-shadow: 0px 0px 10px #0003;
+        }
+        
+
+        img {
+            width: 100%;
+        }
+
+        .main-pillar-content .section {
+
+            margin: 50px auto
+        }
+
+        .col-md-6 {
+
+            align-self: center;
+        }
+
+        ul.side_nav {
+
+            padding-inline-start: 0;
+        }
+
+        ul.side_nav li {
+display:flex;
+            padding: 0;
+        }
+      
+      
+            
+        .nav-up {
+  top: 40px;
+z-index:-9999 !important;
+            transition: top 1s ease-in-out;
+        
+        }
+        
+        @media(min-width:768px) {
+             .nav-up {
+
+z-index:9999 !important;
+         
+        }
+            
+        }
+        
+        header {
+  height: auto;
+  position: fixed;
+  top: 80px;
+  transition: top 1s ease-in-out;
+  width: 100%;
+}
+         .sub-nav-container {
+        display:flex;
+           flex-direction:column;
+        }
+        
+        .sub-nav-container li {
+    display: block;
+    padding: 0;
+}
+        
+        .left-sticky-nav {
+        align-self: left;
+        }
+        
+        .right-sticky-nav {
+        width: 100%;align-self: center;
+        }
+        
+          .right-sticky-nav ul {      
+        float: left;
+margin: 0;
+padding: 0;
+            width: 100%;}
+        
+        @media(min-width:768px) {
+          
+          .right-sticky-nav ul {
+        float: right;margin: 0;
+        }
+          
+                  .right-sticky-nav {
+                    text-align: right;
+        }
+          
+                  .left-sticky-nav {
+        align-self: center;
+        }
+          
+                  .sub-nav-container li {
+    display: inline-flex;
+    padding: 10px !important;
+}
+          
+           header {
+
+  height: 80px;
+}  .sub-nav-container {
+        display:flex;
+                     flex-direction:row;
+          }}
+      
+      
+      
+     
+      
+      
+     /* .right-sticky-nav a {
+    background: #2f4157;
+    padding: 20px;
+    display: inline-block;
+    color: #fff;
+    margin: 0 0 5px 5px;
+    width: 100%;
+    text-align: center;
+    float: left;
+}*/
+      
+      
+      
+      
+      
+      
+      
+      ul {
+        padding: 0 !important;
+
+      }
+
+      li    {
+
+        padding: 0 0px !important;
+      }
+      
+      
+       /* KEEP IN THIS PAGE  */
+      
+   
+      
+      @media(max-width:1200px) {
+        .fa, .fas,.fal,.far {
+        display:none !important;
+        }
+      }
+      
+      
+    </style>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-87DrmpqHRiY8hPLIr7ByqhPIywuSsjuQAfMXAE0sMUpY3BM7nXjf+mLIUSvhDArs"
+        crossorigin="anonymous">
+  
+  
+
+
+</head>
+
+<body>
+
+    {% module "module_152509650118873" module_id="2841936" label="nav" %}
+
+    <div class="container-fluid d-flex justify-content-center align-items-center align-content-center video-parallax-container"
+        id="video-header" style="padding:0;background:url('https://www.ontargetagency.com/hubfs/images/ppc-header.jpg');background-size:cover; background-position:center;">
+
+        <div style="background:#0000;width: 100%;height: 100%;padding: 0;display: flex;">
+
+            <div class="col-12 col-sm-7 col-lg-10 d-inline-block intro-logo page-title-header" data-aos="fade" data-aos-duration="500"
+                style="align-self: center;
+margin: 0 auto;">
+                <h1 class="text-uppercase" style="color:rgb(255,255,255);height:auto;">{% inline_rich_text "inline_rich_text" field="my_text_field" html="GETTING STARTED WITH INBOUND MARKETING
+                    <br>" %}</h1>
+                <a class="btn btn-primary left-btn header-btn" role="button" href="/consultation">ASK AN ON-TARGET! EXPERT</a>
+                <!--       <a class="btn btn-primary  header-btn" role="button" href="/contact-us"  style="">ASK AN ON-TARGET! EXPERT</a>-->
+            </div>
+
+        </div>
+
+
+
+    </div>
+  
+   <header style="background:#DBDBDB;z-index: 9999;background: rgb(234, 234, 234, .91);" id="sticky-sub-nav" class="nav-down sticky">
+  
+    <div class="container sub-nav-container">
+    
+      <div class="left-sticky-nav"><p style="margin: 0;"> <a href="#inbound">Overview</a></p></div>
+      
+           <div class="right-sticky-nav">
+      
+                <ul >
+<!--                    <li>
+                        <a href="#crm">
+                            <i class="fas fa-users"></i> CRM</a>
+                    </li>-->
+                    <li>
+                        <a href="#web_tools">
+                            <i class="fal fa-globe"></i> What tools do I need?</a>
+                    </li>
+                    <li>
+                        <a href="#sales">
+                            <i class="fal fa-dollar-sign"></i> How does Inbound help Sales?</a>
+                    </li>
+                    <li>
+                        <a href="#results">
+                            <i class="fal fa-chart-line"></i> Does Inbound Marketing work?</a>
+                    </li>
+
+                </ul>
+              
+      </div>
+    
+    </div>
+    
+  </header>
+  
+  
+
+    <section style="background:#fff;padding:20px;" id="inbound">
+
+
+        <!-- Section One-->
+        <div class="container" id="" style="padding: 50px 0;">
+            <div class="row">
+                <!--Article -->
+
+                <div class="col-xl-8 col-lg-8 col-md-8 main-pillar-content">
+                    <div class="row section">
+                        <div class="col">
+                            <h2 class="heading" >{% text 'section1_overview_heading' label='Section 1 Overview Heading', value='WHAT IS INBOUND MARKETING?' no_wrapper= %} </h2>
+                       {% rich_text 'section1_overview_description' label='Section 1 Overview Description' html='   <p>
+                        You want your sales message heard by everyone who cares and no one who doesn’t. Inbound marketing makes that happen. Instead of blasting noise in all directions, inbound is laser-focused on attracting customers that genuinely want or need your product or service. We accomplish this by providing customers with relevant and helpful content to aid in value throughout every stage of your customer\'s buying journey.  
+                        </p>' %}
+                        </div>
+                    </div>
+
+                    <div class="row section">
+                        <div class="col">
+                            <h2 class="heading" >{% text 'section1_overview_heading2' label='Section 1 Overview Heading2', value='WHAT IS A GROWTH-DRIVEN INBOUND AGENCY?' no_wrapper= %} </h2>
+                       {% rich_text 'section1_overview_description2' label='Section 1 Overview Description2' html='  
+                       
+                       <p>On-Target is dedicated to more than just pretty and useful marketing. We take it to the next level, caring about results more than fancy creatives that can fall flat. By tracking our marketing efforts, we can identify which leads came through our channels and effectively prove our worth.</p> 
+ 
+<p>Here’s how On-Target! Marketing and HubSpot help your team grow traffic, convert leads, increase sales and track your entire funnel in one place.</p> 
+<ol>
+<li>Build and modify your website without IT </li>
+<li>Convert more visitors into qualified leads </li>
+<li>Turn leads into customers with less effort </li>
+<li>Track customers and report your impact on the bottom line </li>
+<li>Increase productivity of sales by automating manual tasks </li>
+<li>Manage sales pipeline in a CRM that sales reps actually want to use </li>
+</ol>
+                       
+                       
+                       ' %}
+                        </div>
+                    </div>
+
+                    <div class="row section">
+                        <div class="col">
+                            <h2 class="heading" >{% text 'section1_overview_heading3' label='Section 1 Overview Heading3', value='HOW DO I MAKE INBOUND WORK FOR MY SPECIFIC NEEDS? ' no_wrapper= %} </h2>
+                       {% rich_text 'section1_overview_description3' label='Section 1 Overview Description3' html='   <p>
+                        We tailor every campaign to the individual needs of our clients. And we start with HubSpot, a Customer Relationship Management (CRM) tool and integrated software platform that we’ve found monumental success with. CRMs help you store customer contact information and track where they are in their buying journey. Paired with an experienced growth agency, this tool can also serve as an extension of your sales team to improve leads and conversion rates.  
+                        </p>' %}
+                        </div>
+                    </div>
+
+                    <div class="row section">
+                        <div class="col">
+                            <h2 class="heading" >{% text 'section1_overview_heading4' label='Section 1 Overview Heading4', value='HOW DO I USE INBOUND TO FIND THE RIGHT CUSTOMERS?  ' no_wrapper= %} </h2>
+                       {% rich_text 'section1_overview_description4' label='Section 1 Overview Description4' html='   <p>
+                        We target your leads by segmenting based on their contact information and how they’ve engaged with you for truly personalized marketing. Your On-Target! team uses these hyper-targeted segments to send emails, personalize website content, and power marketing automation campaigns so you can effectively nurture your leads further down the funnel. 
+                        </p>' %}
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- Overview Section Video -->
+                    <div id="section1" class="section">
+                        <div class="row inbound-images">
+                            <div class="col-md-12">
+                                <iframe width="100%" height="350" src="https://www.youtube.com/embed/va9-ssGmtLU?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                                    allowfullscreen></iframe>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="row" id="web_tools">
+                        <div class="col">
+                            <h3 class="heading">{% text 'section_2_overview_heading' label='Section 2 Overview Heading', value='WHAT ARE THE TOOLS I NEED TO SUCCEED ON THE WEB? ' no_wrapper= %}</h3>
+                            {% rich_text 'section_2_overview_description' label='Section 2 Overview Description' html='
+                            <p>At On-Target! we have a lot of tools in our belt to personalize your inbound marketing strategy. Between posting content and analyzing the success of paid ads, landing pages, and blogs, content management can be a cluttered and time-consuming process. HubSpot’s all-in-one, integrated platform, enables communication between tools which promotes efficient marketing. These are just some of the tools we use to jump-start your inbound marketing. </p>
+                            ' %}
+                        </div>
+                    </div>
+
+
+                    <hr>
+                    <div class="row section" id="crm">
+                        <div class="col">
+                            <p class="heading">CRM</p>
+                            <p>A CRM or Customer Relationship Management tool helps you store customer contact information and track where they are in their buying journey. To ensure potential leads don’t fall through the crack, let On-Target! and HubSpot serve as an extension of your sales team. </p>
+                        </div>
+                    </div>
+
+                    <!-- Lead Management Section -->
+                    <div id="section6" class="section">
+                        <div class="row inbound-images" id="lead_mgmt">
+                            <div class="col-md-6">
+
+                                <p class="heading">Lead Management</p>
+
+                                <p>All your contact details, all in one place.</p>
+
+                                <p>Organize all your contact details and interactions in one centralized, integrated database,
+                                    create segmented lists, and score leads so sales can prioritize their outreach.</p>
+
+
+
+                            </div>
+                            <div class="col-md-6 in-img">
+                                <img src="https://www.ontargetagency.com/hs-fs/hubfs/Hubspot%20marketing_contact.png?t=1525643514136&width=960&height=609&name=Hubspot%20marketing_contact.png"
+                                    alt="Lead Management for Inbound Workflows">
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <!--HubSpot CRM Section -->
+                    <div class="section">
+                        <div class="row" id="hscrm">
+                            <div class="col-md-6">
+                                <p class="heading">HubSpot CRM</p>
+
+                                <p>Get an up-to-the-minute view of your entire sales funnel on a clean, visual dashboard. Create
+                                    new deals with a single click, then drag and drop them from stage to stage as they progress.</p>
+                            </div>
+                            <div class="col-md-6">
+
+                                <img src="https://www.ontargetagency.com/hubfs/images/crm.jpg" alt="Inbound Customer Relationship Management Tool">
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- List Management & Segmentation Section -->
+                    <div id="section7" class="section">
+                        <div class="row inbound-images" id="list_mgmt">
+                            <div class="col-md-6 in-img">
+
+                                <img src="https://www.ontargetagency.com/hs-fs/hubfs/hubspot%20marketing%20email.png?t=1525643514136&width=1529&height=602&name=hubspot%20marketing%20email.png"
+                                    alt="List Management and Segmentation for Inbound Marketing">
+
+                            </div>
+                            <div class="col-md-6">
+
+                                <p class="heading">List Management &amp; Segmentation</p>
+
+                                <p>Zero-in on the right contacts. Target your leads by segmenting based on their contact information
+                                    and how they’ve engaged with you for truly personalized marketing. Your On-Target! team
+                                    will use these hyper-targeted segments to send emails, personalize website content, and
+                                    power marketing automation campaigns so you can effectively nurture your leads further
+                                    down the funnel.</p>
+
+
+
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                
+
+                    <!-- Reporting Dashboard Section -->
+                    <div id="section9" class="section">
+                        <div class="row inbound-images"  id="reporting_dashboard">
+
+                            <div class="col-md-6 in-img">
+
+                                <img src="https://www.ontargetagency.com/hs-fs/hubfs/report.png?t=1525643514136&width=1529&height=602&name=report.png" alt="In-Depth Reports from HubSpot">
+
+
+
+                            </div>
+
+                            <div class="col-md-6">
+
+
+                                <p class="heading">Reporting Dashboard</p>
+
+                                <p>
+                                    <b>Track customers and report impact on the bottom line.</b>
+                                </p>
+
+                                <p>Create beautiful, custom reports to export on virtually any metric from HubSpot Marketing,
+                                    any record from HubSpot CRM, or data from any integrated apps you may be using via HubSpot
+                                    Connect. Use closed-loop reporting to determine the ROI of your work.</p>
+
+                                <ul>
+                                    <li> Marketers that calculate ROI are 1.6X more likely to receive higher budgets.</li>
+                                    <li> 43% of marketers say proving the ROI of their marketing activities is their top marketing
+                                        challenge.</li>
+
+                                </ul>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+
+                 
+                    <!-- Marketing Automation Section -->
+                    <div id="section11" class="section">
+                        <div class="row inbound-images" id="marketing_automation2">
+
+
+                            <div class="col-md-6 in-img">
+                                <img src="https://www.ontargetagency.com/hs-fs/hubfs/marketing%20automation.png?t=1525643514136&width=1529&height=602&name=marketing%20automation.png"
+                                    alt="">
+
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <p class="heading">Marketing Automation</p>
+
+                                <p>
+                                    <b>Segment your customers from your prospects to upsell, retain, and delight.</b>
+                                </p>
+
+                                <p>Turn customers into excited advocates and promoters by continuing to deliver value post purchase.
+                                    Upsell and encourage customer referrals from your happiest customers, or help unhappy
+                                    customers turn the situation around by giving them the content and help they need to
+                                    experience the value they paid for.</p>
+
+                                <p>With marketing automation, tailoring your content and campaigns to increase referrals, upsells,
+                                    and loyalty is not only possible.</p>
+
+
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+                <!-- ENd Article-->
+
+                <!-- Sidebar -->
+                <div class="col-xl-3 col-lg-3 col-md-3 offset-lg-1 offset-md-1 offset-xl-1">
+
+                    <div class="sticky">
+
+                            <ul class="side_nav">
+                                    <li><a href="#crm">CRM</a></li>
+                              <li><a href="#lead_mgmt">Lead Management</a></li>
+                                    <li><a href="#hscrm">HubSpot CRM</a></li>
+                                    <li><a href="#list_mgmt">List Management &amp; Segmentation</a></li>
+                                   
+                                    <li><a href="#reporting_dashboard">Reporting Dashboard</a></li>
+                       
+                                    <li><a href="#marketing_automation2">Marketing Automation</a></li>
+                                                            </ul>
+
+                        <!--HubSpot Call-to-Action Code -->
+                        <span class="hs-cta-wrapper" id="hs-cta-wrapper-33e7e45e-91b4-43c6-b2c1-2e9d7d184806">
+                            <span class="hs-cta-node hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806">
+                                <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                                <a href="https://cta-redirect.hubspot.com/cta/redirect/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806">
+                                    <img class="hs-cta-img" id="hs-cta-img-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" style="border-width:0px;" height="300" width="375"
+                                        src="https://no-cache.hubspot.com/cta/default/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806.png"
+                                        alt="New Call-to-action" />
+                                </a>
+                            </span>
+                            <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+                            <script type="text/javascript">
+                                hbspt.cta.load(3221680, '33e7e45e-91b4-43c6-b2c1-2e9d7d184806', {});
+                            </script>
+                        </span>
+                        <!-- end HubSpot Call-to-Action Code -->
+                        <hr>
+
+                        <!--HubSpot Call-to-Action Code -->
+                        <span class="hs-cta-wrapper" id="hs-cta-wrapper-d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b">
+                            <span class="hs-cta-node hs-cta-d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b" id="hs-cta-d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b">
+                                <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                                <a href="https://cta-redirect.hubspot.com/cta/redirect/3221680/d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b" target="_blank">
+                                    <img class="hs-cta-img" id="hs-cta-img-d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b" style="border-width:0px;" height="300" width="375"
+                                        src="https://no-cache.hubspot.com/cta/default/3221680/d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b.png"
+                                        alt="New Call-to-action" />
+                                </a>
+                            </span>
+                            <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+                            <script type="text/javascript">
+                                hbspt.cta.load(3221680, 'd8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b', {});
+                            </script>
+                        </span>
+                        <!-- end HubSpot Call-to-Action Code -->
+
+
+
+                    </div>
+
+                </div>
+                <!-- End Sidebar-->
+
+            </div>
+            <!--End row-->
+          
+           <hr>
+        </div>
+        <!-- End Container-->
+
+       
+
+        <!-- Section Two-->
+        <div class="container" id="web" style="padding: 50px 0;">
+            <div class="row">
+                <!--Article -->
+
+                <div class="col-xl-8 col-lg-8 col-md-8 main-pillar-content">
+
+                   <!-- <div class="row" id="web_tools">
+                        <div class="col">
+                            <h3 class="heading">{% text 'section_2_overview_heading' label='Section 2 Overview Heading', value='WHAT ARE THE TOOLS I NEED TO SUCCEED ON THE WEB? ' no_wrapper= %}</h3>
+                            {% rich_text 'section_2_overview_description' label='Section 2 Overview Description' html='
+                            <p>At On-Target! we have a lot of tools in our belt to personalize your inbound marketing strategy. Between posting content and analyzing the success of paid ads, landing pages, and blogs, content management can be a cluttered and time-consuming process. HubSpot’s all-in-one, integrated platform, enables communication between tools which promotes efficient marketing. These are just some of the tools we use to jump-start your inbound marketing. </p>
+                            ' %}
+                        </div>
+                    </div>-->
+                    
+                    <!-- Ads Section-->
+                    <div id="section2" class="">
+                        <div class="row inbound-images" id="ads">
+                            <div class="col-md-6">
+
+
+
+                                <p  class="heading">{% text 'ads_h' label='ads', value='Ads' no_wrapper= %}</p>
+
+                               {% rich_text 'ads_d' label='ads' html='<p>Using Google AdWords, Facebook ads, LinkedIn Sponsored Updates, typical online banner ads, etc., are just the beginning. We use HubSpot and other tools to clearly show you not only impressions and clicks, but leads, customers, and the actual ROI of your campaigns. </p>' %}
+
+                            </div>
+                            <div class="col-md-6 in-img">
+                              
+                                {% image 'ads_i' label='ads_i', alt='Manage Ads within HubSpot', src='https://www.ontargetagency.com/hs-fs/hubfs/keywords.png?t=1525643514136&width=1529&height=602&name=keywords.png', width='' %}
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <!-- Call to Actions (CTAs) Section -->
+                    <div id="section3" class="">
+                        <div class="row inbound-images" id="ctas">
+                            <div class="col-md-6 in-img">
+
+
+                                {% image 'cta_i' label='cta_i', alt='drive users down the funnel with CTAs', src='https://www.ontargetagency.com/hs-fs/hubfs/CTA.png?t=1525643514136&width=420&height=747&name=CTA.png', width='' %}
+
+
+                            </div>
+                            <div class="col-md-6">
+
+
+                                <p class="heading">{% text 'cta_h' label='cta_h', value='Call to Actions (CTAs)' no_wrapper= %}</p>
+
+                              {% rich_text 'cta_d' label='cta_d' html='<p>The secret to converting visitors into leads is often simply asking in an engaging way. Professional call-to-action buttons drive traffic to a landing page that is created, tested and optimized by your On-Target! team.  </p>' %}
+
+                                <hr>
+
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <!-- Personalization Section-->
+                    <div class="section">
+
+                        <div class="row" id="personalization">
+                            <div class="col-md-6">
+
+                                <p class="heading">{% text 'Personalization_h' label='Personalization_h', value='Personalization' no_wrapper= %}</p>
+
+                               {% rich_text 'Personalization_d' label='Personalization_d' html='<p>We help you swap out your CTAs within emails, blog posts, or on your website for a fresh and unique user experience your customers will love. Using work-flows and fuzzy-logic based on lists, contact properties, sources, and behavior, your content will look and feel personal to each potential lead and thus boost conversions. </p>' %}
+
+
+                            </div>
+                            <div class="col-md-6">
+
+
+                                {% image 'personalization_i' label='personalization_i', alt='Engage the user with personalized content', src='https://www.ontargetagency.com/hubfs/images/personlization.jpg', width='' %}
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Landing Pages Section -->
+                    <div id="section4" class="">
+                        <div class="row inbound-images" id="landing_pages">
+                            <div class="col-md-6">
+
+
+                                <p class="heading">{% text 'landing_h' label='landing_h', value='Landing Pages' no_wrapper= %}</p>
+
+                               {% rich_text 'landing_d' label='landing_d' html='<p>Capture inbound leads through your website with landing pages that are optimized for your brand and specific services or offers. Pages that are easy to understand and, most importantly, track performance and then continuously optimize for improved results. </p>' %}
+
+
+
+
+
+                            </div>
+                            <div class="col-md-6 in-img">
+
+                            
+
+                                {% image 'landing_i' label='landing_i', alt='topic dirven customer action focused pages', src='https://www.ontargetagency.com/hs-fs/hubfs/LP-1.png?t=1525643514136&width=1976&height=1607&name=LP-1.png', width='' %}
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <!-- Analyze in Real Time Section -->
+                    <div class="section">
+                        <div class="row" id="analyze">
+                            <div class="col-md-6">
+                   
+
+                                {% image 'analyze_i' label='analyze_i', alt='See whats working | marketing & Advertising', src='https://www.ontargetagency.com/hubfs/images/analyze.jpg', width='' %}
+
+                            </div>
+                            <div class="col-md-6">
+                                <p class="heading">{% text 'analyze_h' label='analyze_h', value='ANALYZE IN REAL TIME ' no_wrapper= %}</p>
+
+                               {% rich_text 'analyze_d' label='analyze_d' html='<p>See real-time traffic and conversion performance, along with source data. We analyze and A/B test landing pages in real time to optimize for visits and conversions. Our data analysis takes all the guess work out of marketing. Know for a fact whether your inbound efforts are working.  </p>' %}
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Blog Section -->
+                    <div id="section5" class="">
+                        <div class="row inbound-images" id="blog">
+                            <div class="col-md-6 in-img">
+
+                         
+
+{% image 'blog_i' label='blog_i', alt='Provide your users with content they want', src='https://www.ontargetagency.com/hs-fs/hubfs/blogs.png?t=1525643514136&width=1619&height=1004&name=blogs.png', width='' %}
+
+                            </div>
+                            <div class="col-md-6">
+
+                                <p class="heading">{% text 'blog_h' label='blog_h', value='Blog' no_wrapper= %}</p>
+                               {% rich_text 'blog_d' label='blog_d' html='<p>Blogs are often a missed opportunity for companies. We use blogs to provide your customers with helpful content they can actually use. This results in longer time spent on your site and helps narrow down your lead pool into customers that are the perfect fit for your brand. </p>' %}
+                                <p>
+                                    <strong>Companies That Blog See:</strong>
+                                </p>
+                                <ul>
+                                    <li>3.3X more visitors per month within one year</li>
+                                    <li>3.5X more leads per month within one year</li>
+                                    <li>79% Increase in sales revenue within one year</li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                       <!-- Social Inbox Section -->
+                       <div id="section10" class="section">
+                        <div class="row inbound-images" id="social_inbox">
+
+
+
+                            <div class="col-md-6">
+
+                                <p class="heading">{% text 'social_h' label='social_h', value='Social Media' no_wrapper= %}</p>
+
+{% rich_text 'social_d' label='social_d' html='<p>Social media is not just about being fun for young customers. A strong social presence is important no matter what industry you are in, even B2B companies. Think of social media as a treasure trove of data. Used correctly, social makes it easier to use inbound methods to find the right customers. With an informed social strategy, you can consistently glean valuable information and connect with people who matter, while staying true to your brand identity.  </p>' %}
+
+
+
+
+                            </div>
+
+                            <div class="col-md-6 in-img">
+                                <iframe width="100%" height="480" src="https://www.youtube.com/embed/osKVoFz2vHg" frameborder="0" allow="autoplay; encrypted-media"
+                                    allowfullscreen></iframe>
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+
+
+                       <!-- Email Marketing Section-->
+                       <div class="section">
+                        <div class="row" id="email_marketing">
+                            <div class="col-md-6">
+                                <p class="heading">{% text 'email_h' label='email_h', value='Email Marketing' no_wrapper= %}</p>
+
+                              {% rich_text 'email_d' label='email_d' html='<p>Inbound email marketing uses high-performance emails for blasts, and allows for custom emails that the sales team can send with personal messages. These targeted emails will get read and your prospects will look forward to receiving them. You will be able to measure which messages are most effective. Count on unmatched deliverability and best-in-class email analytics. </p>' %}
+
+
+                            </div>
+                            <div class="col-md-6">
+                             
+                                {% image 'email_i' label='email_i', alt='Email Marketing using HubSPot', src='https://www.ontargetagency.com/hubfs/images/email-marketing.jpg', width='' %}
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Marketing Automation Section -->
+                    <div id="section8" class="section">
+                        <div class="row inbound-images" id="marketing_automation">
+
+                            <div class="col-md-6">
+
+
+                                <p class="heading">{% text 'auto_h' label='auto_h', value='Marketing Automation' no_wrapper= %}</p>
+
+                               {% rich_text 'auto_d' label='auto_d' html='<p>Automate your marketing beyond email. With On-Target! and Hubspot, you can trigger a campaign of email messages based on any criteria you choose. Examples include a form submission, a site revisit, a video view, a particular page visit. Automate responses based on important customer activity and set up alerts for your sales reps as necessary. </p>' %}
+
+
+
+                            </div>
+
+                            <div class="col-md-6 in-img">
+
+                             
+
+                                    {% image 'auto_i' label='auto_i', alt='Marketing Automation tools via HubSpot and Inbound Marketing', src='https://www.ontargetagency.com/hs-fs/hubfs/hubspot%20workflow.png', width='' %}
+
+
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <!-- ENd Article-->
+
+
+                <!-- Sidebar -->
+                <div class="col-xl-3 col-lg-3 col-md-3 offset-lg-1 offset-md-1 offset-xl-1">
+
+                    <div class="sticky">
+
+                            <ul class="side_nav">
+                                    <li><a href="#ads">Ads</a></li>
+                                    <li><a href="#ctas">Call to Actions (CTAs)</a></li>
+                                    <li><a href="#personalization">Personalization</a></li>
+                                    <li><a href="#landing_pages">Landing Pages</a></li>
+                                    <li><a href="#analyze">Analyze in Real Time</a></li>
+                                    <li><a href="#blog">Blog</a></li>
+                                    <li><a href="#social_inbox">Social Media</a></li>
+                                    <li><a href="#email_marketing">Email Marketing</a></li>
+                                    <li><a href="#marketing_automation">Marketing Automation</a></li>
+                                                            </ul>
+                      
+
+                        <!--HubSpot Call-to-Action Code -->
+                        <span class="hs-cta-wrapper" id="hs-cta-wrapper-33e7e45e-91b4-43c6-b2c1-2e9d7d184806">
+                            <span class="hs-cta-node hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806">
+                                <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                                <a href="https://cta-redirect.hubspot.com/cta/redirect/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806">
+                                    <img class="hs-cta-img" id="hs-cta-img-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" style="border-width:0px;" height="300" width="375"
+                                        src="https://no-cache.hubspot.com/cta/default/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806.png"
+                                        alt="New Call-to-action" />
+                                </a>
+                            </span>
+                            <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+                            <script type="text/javascript">
+                                hbspt.cta.load(3221680, '33e7e45e-91b4-43c6-b2c1-2e9d7d184806', {});
+                            </script>
+                        </span>
+                        <!-- end HubSpot Call-to-Action Code -->
+                        <hr>
+
+                        <!--HubSpot Call-to-Action Code -->
+                        <span class="hs-cta-wrapper" id="hs-cta-wrapper-d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b">
+                            <span class="hs-cta-node hs-cta-d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b" id="hs-cta-d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b">
+                                <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                                <a href="https://cta-redirect.hubspot.com/cta/redirect/3221680/d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b" target="_blank">
+                                    <img class="hs-cta-img" id="hs-cta-img-d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b" style="border-width:0px;" height="300" width="375"
+                                        src="https://no-cache.hubspot.com/cta/default/3221680/d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b.png"
+                                        alt="New Call-to-action" />
+                                </a>
+                            </span>
+                            <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+                            <script type="text/javascript">
+                                hbspt.cta.load(3221680, 'd8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b', {});
+                            </script>
+                        </span>
+                        <!-- end HubSpot Call-to-Action Code -->
+
+
+
+                    </div>
+
+                </div>
+                <!-- End Sidebar-->
+
+            </div>
+            <!--End row-->
+          
+        <hr>
+        </div>
+        <!-- End Container-->
+
+
+        <!-- Section Three-->
+        <div class="container" id="sales" style="padding: 50px 0;">
+            <div class="row">
+                <!--Article -->
+
+                <div class="col-xl-8 col-lg-8 col-md-8 main-pillar-content">
+                    <div class="row" id="sales_tools">
+                        <div class="col">
+                            <h3 class="heading">{% text 'section_4_overview_heading' label='Section 4 Overview Heading', value='HOW DOES INBOUND HELP SALES? ' no_wrapper= %}</h3>
+                        {% rich_text 'section_4_overview_description' label='Section 4 Overview Description' html='<p>Inbound is not just a marketing tactic. In fact, the whole point is to boost sales and overall company growth. Inbound marketing supports your sales operations by unearthing useful data about the contacts and companies you interact with, placing it right at your fingertips and enabling you to serve them better. </p>' %}
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <!-- Sales Tools Section -->
+                    <div id="section12" class="">
+                        <div class="row inbound-images" id="sales_tools2">
+
+                            <div class="col-md-12 in-img" style="padding: 0 50px;
+                            margin-bottom: 20px;">
+                                <iframe width="100%" height="360" src="https://www.youtube.com/embed/6UqKyKXqb8w?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+                                    allowfullscreen></iframe>
+                            </div>
+
+                            <div class="col-md-12">
+
+                                <p class="heading">{% text 'Salestools_h' label='Salestools_h', value='WHAT ARE THE TOOLS I NEED TO SUCCEED IN SALES?' no_wrapper= %}</p>
+                               
+
+                                {% rich_text 'Salestools_d' label='Salestools_d' html='<p>People don’t want to be sold to, they want to be served. Figuring out how to genuinely help your potential customer is the secret to selling in a modern way. The sharpest sales associates use everything in their toolbox to convert leads into loyal customers. On-Target! and HubSpot have partnered to provide you with the best available resources to capture customer insights and close more leads. These are some of the tools we use to help your sales team succeed.  </p>' %}
+
+
+
+
+                            </div>
+
+
+                         
+
+
+
+
+                        </div>
+
+
+                    </div>
+
+<hr>
+                    <!-- Practical CRM Section -->
+                    <div id="section13" class="">
+                        <div class="row inbound-images" id="practical">
+
+
+<div class="col-md-12"> <p class="heading">{% text 'crm_h' label='crm_h', value='CUSTOMER RELATIONSHIP MANAGEMENT (CRM) ' no_wrapper= %}</p>
+</div>
+                            <div class="col-md-6 ">
+
+                               
+                               {% rich_text 'crm_d' label='crm_d' html='<p>The first step is to find a useful CRM tool. CRMs help you store customer contact information and track where they are in their buying journey. Paired with an experienced growth agency, this tool can also serve as an extension of your sales team. </p>
+ 
+<p>We’ve found the best CRM in the business. Say goodbye to manual tasks and confusing features. We help you stage the FREE HubSpot CRM system that organizes every detail about your contacts and customers in a single place. It’s a system based on A.I. that populates prospect information for you without excessive manual entry. Plus, this free resource helps create a seamless connection with your newly aligned marketing and sales team.</p> ' %}
+                            </div>
+
+                            <div class="col-md-6">
+
+                                <a href="https://www.hubspot.com/sales/demo?wvideo=vzempomauf" target="_blank">
+                                    <img style="width: 100%;
+                                    margin-bottom: 15px;
+                                    margin-top: 0;" src="https://embedwistia-a.akamaihd.net/deliveries/373b8cd72d42aff3804a69807e14a2d42fc7463b.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=7b796ae0" >
+                                </a>
+
+                                {% rich_text 'crm_d2' label='crm_d2' html='
+                                 
+                                <p>HubSpot CRM works seamlessly with HubSpot Sales, so you can log and update sales activity automatically. HubSpot Sales also syncs with G Suite and Office 365, so you can track customer interactions automatically from email, across social media or on a call. Get actionable intel in a fraction of the time.</p> ' %}
+
+
+
+                            </div>
+
+
+                         
+
+
+
+                        </div>
+
+
+                    </div>
+
+                    <!-- Prospects Section -->
+                    <div id="section14" class="">
+                        <div class="row inbound-images"  id="prospects">
+
+
+
+
+
+
+                            <div class="col-md-6 ">
+
+                                <p class="heading">{% text 'alignment_h' label='alignment_h', value='MARKETING AND SALES ALIGNMENT' no_wrapper= %}  </p>
+
+                               {% rich_text 'alignment_d' label='alignment_d' html='<p>The whole point of marketing is to support the sales team in their effort to convert leads into sales. At On-Target we streamline the communication between these two teams. This enables faster and smoother sales by eliminating the need for cold calling and further empowering the sales team to succeed.  </p>' %}
+
+
+
+                            </div>
+
+
+                            <div class="col-md-6">
+                                <img src="https://www.ontargetagency.com/hs-fs/hubfs/contact%20list.png?t=1525643514136&width=1529&height=602&name=contact%20list.png"
+                                    alt="Close on your most qualified inbound leads">
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+
+                    </div>
+
+                    <!-- Templates Section -->
+                    <div id="section15" class="">
+                        <div class="row inbound-images" id="templates">
+
+
+                            <div class="col-md-6">
+                             
+
+                                    {% image 'templates_i' label='templates_i', alt='Use templates to streamline your workflow', src='https://www.ontargetagency.com/hs-fs/hubfs/email%20template.png', width='' %}
+
+                            </div>
+                            <div class="col-md-6 ">
+
+                                <p class="heading">{% text 'templates_h' label='templates_h', value='Templates' no_wrapper= %}</p>
+
+                           {% rich_text 'templates_d' label='templates_d' html='<p>Custom-designed templates for emails, blogs, lading pages and more are a big advantage for sales teams. By having an easy form to fill out with good information, sales people save a significant amount of time while still presenting themselves professionally. Templates also present your sales people as one cohesive and organized team, which leads to smoother sales processes and a higher close rate.  </p>' %}
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                     <!-- Email Tracking Section -->
+                     <div id="section17" class="">
+                        <div class="row inbound-images"  id="emailtracking">
+
+                           
+                            <div class="col-md-6 ">
+
+                                <p class="heading">{% text 'emailtracking_h' label='emailtracking_h', value='Email Tracking' no_wrapper= %}</p>
+
+{% rich_text 'emailtracking_d' label='emailtracking_d' html='<p>HubSpot uses notifications to follow up seconds after a lead opens an email, clicks a link, or downloads an important document such as a proposal. A built-in activity stream automatically logs each lead’s history inside your browser or HubSpot Sales. Open, click, and reply data helps you hone in on which email templates and sequences are most effective, so you can optimize your emails to get the best results. </p>' %}
+
+
+                            </div>
+
+                            <div class="col-md-6">
+                               {% image 'emailtracking_i' label='emailtracking_i', alt='Reach out to inbound leads and track conversations with Email Tracking', src='https://www.ontargetagency.com/hs-fs/hubfs/hubspot%20call.png', width='' %} </div>
+
+
+                              
+
+
+                        </div>
+                    </div>
+
+                    <!-- Document Tracking Section -->
+                    <div id="section16" class="">
+                        <div class="row inbound-images" id="document_tracking">
+
+
+
+                            <div class="col-md-6 ">
+
+                                <p class="heading">{% text 'documenttracking_h' label='documenttracking_h', value='Document Tracking' no_wrapper= %}</p>
+
+                               
+{% rich_text 'documenttracking_d' label='documenttracking_d' html='<p>Know without guesswork what content closes deals. HubSpot enables you to build a library of helpful sales content for your entire team, share documents right from your Gmail or Outlook inbox, and see which content closes deals. When a lead clicks an email link to open your document, or shares it with a colleague, you’ll be notified instantly on your desktop. Get aggregate data about how your sales content is helping to move your sales process forward. </p>' %}
+
+                            </div>
+                            <div class="col-md-6">
+                          
+
+                                    {% image 'documenttracking_i' label='documenttracking_i', alt='Track documents within your inbound sales portal to keep the conversation going', src='https://www.ontargetagency.com/hs-fs/hubfs/email%20tracking.png', width='' %}
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Call Tracking Section -->
+                    <div id="section17" class="">
+                        <div class="row inbound-images"  id="call_tracking">
+
+                            <div class="col-md-6">
+                             
+                                
+                                    {% image 'calltracking_i' label='calltracking_i', alt='Reach out to inbound leads and track online and offline conversations with Call Tracking', src='https://www.ontargetagency.com/hs-fs/hubfs/hubspot%20call.png', width='' %}
+                                
+                                
+                                </div>
+
+                            <div class="col-md-6 ">
+
+                                <p class="heading">{% text 'calltracking_h' label='calltracking_h', value='Call Tracking' no_wrapper= %}</p>
+
+                                {% rich_text 'calltracking_d' label='calltracking_d' html='<p>Call tracking data is immensely useful in determining the effectiveness of inbound marketing efforts. By knowing what ads and messages your customers best respond to as well as location data, your sales team can tailor their approach to best fit the needs of your customers.  </p>' %}
+
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!-- Meetings Section -->
+                    <div id="section18" class="">
+                        <div class="row inbound-images" id="meetings">
+
+
+
+                            <div class="col-md-6 ">
+
+                                <p class="heading">{% text '_h' label='Meetings_h', value='Meetings' no_wrapper= %}</p>
+
+                                {% rich_text 'Meetings_d' label='Meetings_d' html='<p>Put the power to book meetings in the hands of your prospects. 
+                                    Meetings sync to your Google or Office 365 calendar, so your schedule is always up-to-date. As prospects book meetings, automatically create new records or log the activity in your CRM. </p>' %}
+
+                              
+
+
+
+
+                            </div>
+
+                            <div class="col-md-6">
+                                <img src="https://www.ontargetagency.com/hs-fs/hubfs/meetings.png?t=1525643514136&width=1529&height=602&name=meetings.png"
+                                    alt="Schedule meetings with prospects and clients using Hubspots built in Sales Tools">
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!-- CRM Section -->
+                  <!--  <div id="section19" class="">
+                        <div class="row inbound-images" id="hs_crm3">
+
+
+                            <div class="col-md-6">
+                                <img src="https://www.ontargetagency.com/hs-fs/hubfs/pipeline.png?t=1525643514136&width=1529&height=602&name=pipeline.png"
+                                    alt="HubSpot CRM provides real time data across your campaigns and website">
+
+                            </div>
+                            <div class="col-md-6 ">
+
+                                <p class="heading">HubSpot CRM</p>
+
+                                <p>
+                                    <b>Manage your pipeline and close more deals.</b>
+                                </p>
+
+                                <p>Get an up-to-the-minute view of your entire sales funnel on a clean, visual dashboard. Create
+                                    new deals with a single click, then drag and drop them from stage to stage as they progress.</p>
+
+                                <p>You can sort deals won and lost, appointments scheduled, and contracts sent over any time
+                                    period. Plus, track performance against quotas you set.</p>
+
+                                <p>Sort deals by name, owner, amount, or stage with custom filters for actionable intel in a
+                                    fraction of the time.</p>
+
+
+
+
+                            </div>
+
+
+
+
+                        </div>
+                    </div>-->
+
+
+                    <!--CRM Section -->
+                   <!-- <div id="section20" class="">
+                        <div class="row inbound-images" id="hs_crm4">
+
+
+                            <div class="col-md-6 ">
+
+                                <p class="heading">HubSpot CRM</p>
+
+
+                                <p>
+                                    <b>See everything about a lead in one place.</b>
+                                </p>
+
+                                <p>Go way beyond names and job titles. Every interaction with a lead is stored in a tidy timeline,
+                                    including calls, emails, meetings, and notes.</p>
+
+                                <p>You’ll never need to dig through a messy inbox or spreadsheet to figure out where a relationship
+                                    left off.</p>
+
+                                <p>Sync up with HubSpot Marketing, and you’ll know which content your lead has consumed so you
+                                    can personalize your approach.</p>
+
+                                <ul>
+                                    <li> 40% of salespeople say getting a response from prospects is getting harder.</li>
+                                    <li> 29% of salespeople are spending an hour or more on data entry each and every day.
+                                    </li>
+
+                                </ul>
+
+
+
+
+
+                            </div>
+
+                            <div class="col-md-6">
+                                <img src="https://www.ontargetagency.com/hs-fs/hubfs/lead%20flow.png?t=1525643514136&width=1529&height=602&name=lead%20flow.png"
+                                    alt="Custom Prospect records in one location make it easy to learn about your visitors and waht they are doing on your site ">
+
+                            </div>
+
+
+
+
+                        </div>
+                    </div> -->
+
+                    <!-- CRM Section -->
+                   <!-- <div id="section21" class="">
+                        <div class="row inbound-images" id="hs_crm5">
+
+
+                            <div class="col-md-6">
+                                <img src="https://www.ontargetagency.com/hs-fs/hubfs/sales%20activity.png?t=1525643514136&width=1529&height=602&name=sales%20activity.png"
+                                    alt="Track their interactions and filter out how to better serve your customers content they are looking for ">
+                            </div>
+                            <div class="col-md-6 ">
+
+                                <p class="heading">HubSpot CRM</p>
+                                <p>
+                                    <b>Log sales activity automatically.</b>
+                                </p>
+
+                                <p>HubSpot CRM tracks customer interactions automatically – whether they’re in an email, across
+                                    social media, or on a call.</p>
+
+                                <p>HubSpot CRM works seamlessly with HubSpot Sales, so you can log sales activity automatically.
+                                    HubSpot Sales syncs with G Suite and Office 365 so you can track customer interactions
+                                    automatically – whether they’re in an email, across social media, or on a call – for
+                                    actionable intel in a fraction of the time.</p>
+
+
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>-->
+
+
+                </div>
+                <!-- ENd Article-->
+
+
+                <!-- Sidebar -->
+                <div class="col-xl-3 col-lg-3 col-md-3 offset-lg-1 offset-md-1 offset-xl-1">
+
+                    <div class="sticky">
+
+                            <ul class="side_nav">
+                                    <li><a href="#sales_tools">Sales Tools</a></li>
+                                    <li><a href="#practical">CUSTOMER RELATIONSHIP MANAGEMENT (CRM)</a></li>
+                                    <li><a href="#prospects">MARKETING AND SALES ALIGNMENT</a></li>
+                                    <li><a href="#templates">Templates</a></li>
+                                    <li><a href="#emailtracking">Email Tracking</a></li>
+                                    <li><a href="#document_tracking">Document Tracking</a></li>
+                                    <li><a href="#call_tracking">Call Tracking</a></li>
+                                    <li><a href="#meetings">Meetings</a></li>
+                                 
+                                   
+                                                            </ul>
+
+                        <!--HubSpot Call-to-Action Code -->
+                        <span class="hs-cta-wrapper" id="hs-cta-wrapper-33e7e45e-91b4-43c6-b2c1-2e9d7d184806">
+                            <span class="hs-cta-node hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806">
+                                <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                                <a href="https://cta-redirect.hubspot.com/cta/redirect/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806">
+                                    <img class="hs-cta-img" id="hs-cta-img-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" style="border-width:0px;" height="300" width="375"
+                                        src="https://no-cache.hubspot.com/cta/default/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806.png"
+                                        alt="New Call-to-action" />
+                                </a>
+                            </span>
+                            <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+                            <script type="text/javascript">
+                                hbspt.cta.load(3221680, '33e7e45e-91b4-43c6-b2c1-2e9d7d184806', {});
+                            </script>
+                        </span>
+                        <!-- end HubSpot Call-to-Action Code -->
+                        <hr>
+
+                        <!--HubSpot Call-to-Action Code -->
+                        <span class="hs-cta-wrapper" id="hs-cta-wrapper-d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b">
+                            <span class="hs-cta-node hs-cta-d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b" id="hs-cta-d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b">
+                                <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                                <a href="https://cta-redirect.hubspot.com/cta/redirect/3221680/d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b" target="_blank">
+                                    <img class="hs-cta-img" id="hs-cta-img-d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b" style="border-width:0px;" height="300" width="375"
+                                        src="https://no-cache.hubspot.com/cta/default/3221680/d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b.png"
+                                        alt="New Call-to-action" />
+                                </a>
+                            </span>
+                            <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+                            <script type="text/javascript">
+                                hbspt.cta.load(3221680, 'd8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b', {});
+                            </script>
+                        </span>
+                        <!-- end HubSpot Call-to-Action Code -->
+
+
+
+                    </div>
+
+                </div>
+                <!-- End Sidebar-->
+
+            </div>
+            <!--End row-->
+               <hr>
+        </div>
+        <!-- End Container-->
+
+   
+
+        <!-- Section Four-->
+        <div class="container" id="results" style="padding: 50px 0;">
+            <div class="row">
+                <div class="col-xl-8 col-lg-8 col-md-8 main-pillar-content">
+
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="heading">{% text 'roi_h' label='roi_h', value='HOW DO I KNOW MY INBOUND MARKETING IS WORKING? ' no_wrapper= %}</h3>
+                          
+
+                            {% rich_text 'roi_d' label='roi_d' html='<p>We track customers with data from HubSpot and report impact on the bottom line, using closed-loop reporting to determine the return on investment (ROI) of your work. You can create beautiful, custom reports to export on virtually any metric from HubSpot Marketing, any record from HubSpot CRM, or data from any integrated apps you may be using via HubSpot Connect.   </p>' %}
+                        </div>
+                    </div>
+                    <!-- Section -->
+                    <!--<div id="section22" class="">
+                        <div class="row inbound-images" id="results2">
+
+
+                            <div class="col-md-6 ">
+
+                                <p class="heading">Results</p>
+
+                                <p>
+                                    <b>On-Target! Marketing and HubSpot... where all of your marketing and sales come together.</b>
+                                </p>
+
+                                <p>Here’s how On-Target! Marketing and HubSpot will help your team grow traffic, convert leads,
+                                    increase sales and track your entire funnel in one place.</p>
+                                <ol>
+                                    <li>Build and modify your website without IT</li>
+                                    <li>Convert more visitors into qualified leads</li>
+                                    <li>Turn leads into customers with less effort</li>
+                                    <li>Track customers and report your impact on the bottom line</li>
+                                    <li>Increase productivity of sales by automating manual tasks</li>
+                                    <li>Manage sales pipeline in a CRM that sales reps actually want to use</li>
+
+                                </ol>
+
+
+                            </div>
+
+                            <div class="col-md-6 in-img">
+                                <img src="https://www.ontargetagency.com/hubfs/Approach_icon.svg?t=1525643514136" alt="Bring marketing and sales together with Account Based Marketing">
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>-->
+                    <!-- Section -->
+                    <div id="section23" class="">
+                        <div class="row inbound-images" id="roi">
+
+
+                            <div class="col-md-6 ">
+
+                                <p class="heading">{% text 'roi2_h' label='roi2_h', value='WHAT IS THE TYPICAL RETURN ON INVESTMENT (ROI)? ' no_wrapper= %}</p>
+
+                               {% rich_text 'roi2_d' label='roi2_d' html='<p>With inbound marketing and HubSpot organisations increase lead generation, reduce costs, and grow new markets. Based on data from HubSpot, companies can expect the following results within one year: </p>
+                               <ul>
+
+                                <li> 3.3X increase in website visitors</li>
+                                <li> 3.5X increase in leads</li>
+                                <li> 2X increase in new business close rate</li>
+                                <li> 79% of respondents saw an increase in sales revenue</li>
+
+                            </ul>' %}
+
+                                
+
+
+
+
+                            </div>
+
+                            <div class="col-md-6">
+                                <img src="https://www.ontargetagency.com/hs-fs/hubfs/roi2.png?t=1525643514136&width=1536&height=738&name=roi2.png" alt="Calculate ROI from your Inbound Marketing Efforts ">
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <!-- Sidebar -->
+                <div class="col-xl-3 col-lg-3 col-md-3 offset-lg-1 offset-md-1 offset-xl-1">
+
+                    <div class="sticky">
+                            <ul class="side_nav">
+                                    <li><a href="#results">HOW DO I KNOW MY INBOUND MARKETING IS WORKING? </a></li>
+                                    <li><a href="#roi">WHAT IS THE TYPICAL RETURN ON INVESTMENT (ROI)? </a></li>
+                                                            </ul>
+                        <!--HubSpot Call-to-Action Code -->
+                        <span class="hs-cta-wrapper" id="hs-cta-wrapper-33e7e45e-91b4-43c6-b2c1-2e9d7d184806">
+                            <span class="hs-cta-node hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" id="hs-cta-33e7e45e-91b4-43c6-b2c1-2e9d7d184806">
+                                <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                                <a href="https://cta-redirect.hubspot.com/cta/redirect/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806">
+                                    <img class="hs-cta-img" id="hs-cta-img-33e7e45e-91b4-43c6-b2c1-2e9d7d184806" style="border-width:0px;" height="300" width="375"
+                                        src="https://no-cache.hubspot.com/cta/default/3221680/33e7e45e-91b4-43c6-b2c1-2e9d7d184806.png"
+                                        alt="New Call-to-action" />
+                                </a>
+                            </span>
+                            <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+                            <script type="text/javascript">
+                                hbspt.cta.load(3221680, '33e7e45e-91b4-43c6-b2c1-2e9d7d184806', {});
+                            </script>
+                        </span>
+                        <!-- end HubSpot Call-to-Action Code -->
+                        <hr>
+
+                        <!--HubSpot Call-to-Action Code -->
+                        <span class="hs-cta-wrapper" id="hs-cta-wrapper-d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b">
+                            <span class="hs-cta-node hs-cta-d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b" id="hs-cta-d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b">
+                                <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+                                <a href="https://cta-redirect.hubspot.com/cta/redirect/3221680/d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b" target="_blank">
+                                    <img class="hs-cta-img" id="hs-cta-img-d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b" style="border-width:0px;" height="300" width="375"
+                                        src="https://no-cache.hubspot.com/cta/default/3221680/d8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b.png"
+                                        alt="New Call-to-action" />
+                                </a>
+                            </span>
+                            <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+                            <script type="text/javascript">
+                                hbspt.cta.load(3221680, 'd8bcc61e-8e8f-40ea-b5b2-01ccbbc28c9b', {});
+                            </script>
+                        </span>
+                        <!-- end HubSpot Call-to-Action Code -->
+
+
+
+                    </div>
+
+                </div>
+                <!-- End Sidebar-->
+
+
+            </div>
+        </div>
+    </section>
+
+    {% module "module_152509634232252" module_id="2842056" label="foot" %}
+
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>
+   
+  // Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top -180
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+ 
+  </script> 
+  
+  <script>
+// Hide Header on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('header').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
+    }
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('header').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('header').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+    
+    lastScrollTop = st;
+}
+  </script>
+
+    <script>    
+
+        $(function () {
+            $("#bookmarkme").click(function () {
+                // Mozilla Firefox Bookmark
+                if ('sidebar' in window && 'addPanel' in window.sidebar) {
+                    window.sidebar.addPanel(location.href, document.title, "");
+                } else if ( /*@cc_on!@*/false) { // IE Favorite
+                    window.external.AddFavorite(location.href, document.title);
+                } else { // webkit - safari/chrome
+                    alert('Press ' + (navigator.userAgent.toLowerCase().indexOf('mac') != - 1 ? 'Command/Cmd' : 'CTRL') + ' + D to bookmark this page.');
+                }
+            });
+        });
+    </script> {{ standard_footer_includes }}
+
+</body>
+
+</html>

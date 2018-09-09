@@ -1,0 +1,853 @@
+<!doctype html>
+<html lang="en-us" xml:lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ content.html_title }}</title>
+    <meta name="description" content="{{ content.meta_description }}">
+    {{ standard_header_includes }}
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% module "module_152509620453033" module_id="2842050" label="head" %}
+    <!--    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-TXfwrfuHVznxCssTxWoPZjhcss/hp38gEOH8UPZG/JcXonvBQ6SlsIF49wUzsGno" crossorigin="anonymous">
+
+    <style>
+      .growth-agency-header {
+        background:url('https://www.ontargetagency.com/hubfs/images/houston-growth-agency-marketing-bulbs.jpg'); background-size:cover; background-position:center; 
+        height: 100%;
+        display: flex;
+        padding: 0 30px;
+        min-height: 600px;
+        max-width: 1440px;
+        margin: 0 auto;
+
+      }
+
+      @media(min-width:768px) {
+        .growth-agency-header {min-height:520px}
+      }
+
+      .header-box {
+        align-self: center;
+        max-width: 900px;
+        margin: 0 auto;
+        text-align:center;
+      }
+
+      @media(min-width:768px) {
+        .header-box { 
+          text-align:left;
+        }
+      }
+
+
+      .growth-agency-header h1 {
+        font-size: 16px;
+        text-align: left;
+        color: #FFF;
+        font-weight:100;
+      }
+      @media(min-width:768px) {
+        .growth-agency-header h1 {
+          font-size: 18px;
+          text-align: left;
+          color: #fff;
+          font-weight: 100;
+        }}
+
+
+      .growth-agency-header p.main-title {
+        font-size: 22px;
+        color:#fff;
+        font-weight: bold;
+        font-weight:900;
+        line-height: 1;
+      }
+
+      .growth-agency-header p.main-title span {
+        color: #FFC402;
+        font-weight:900;
+      }
+
+
+      @media(min-width:768px) {
+        .growth-agency-header p.main-title {
+          font-size: 24px;
+          color: #fff;
+          font-weight: bold;
+          font-weight:900;
+        }
+      }
+
+
+      @media(min-width:768px) {
+        .growth-agency-header p.main-title {
+          font-size: 80px;
+          text-align: left;
+          line-height: .85;
+        }
+      }
+
+
+
+
+
+      .header-right {
+        margin: 0 30px;
+      }
+
+      @media(min-width:768px) {
+        .header-right {
+
+          margin: 0 0px 0 80px;
+        }}
+
+      .growth-agency-header h2.description {
+
+
+        color: #fff;
+        font-size: 20px;
+        text-align: left;
+        font-weight: lighter;
+      }
+
+      .growth-agency-header a.link {
+        color: #FFC402;
+        font-size: 16px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      .growth-agency-header .link:hover {
+        color: #ffc40299 !important;
+      }
+
+      body {
+        background: linear-gradient(to right, #000, #000 , #50100e, #50100e) !important;
+      }
+      .header-box {
+        display:flex;
+        flex-direction:column;
+
+      }
+
+
+      @media(min-width:769px) {         
+        .header-box { 
+          display:flex;
+          flex-direction:row;
+
+        } }
+
+
+
+      .tri-hp-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+
+      }
+
+      .tri-hp-col:hover {
+        box-shadow: 0px 0px 10px #0000001a;
+      }
+
+      .tri-hp-col img {
+        max-width:180px;
+
+      }
+
+
+      .hp-col-content {
+        height:270px;
+      }
+
+      @media(min-width:420px)  {
+        .hp-col-content {
+          height:200px;
+        }
+      }
+
+      @media(min-width:500px)  {
+        .hp-col-content {
+          height:170px;
+        }
+      }
+
+      @media(min-width:768px)  {
+        .hp-col-content {
+          height:150px;
+        }
+      }
+
+      @media(min-width:992px)  {
+        .hp-col-content {
+          height:300px;
+        }
+      }
+
+      @media(min-width:1000px)  {
+        .hp-col-content {
+          height:300px;
+        }
+      }
+
+      @media(min-width:1200px)  {
+
+        .hp-col-content {
+          height:250px;
+
+        }
+      }
+
+      .ibr-video-section {
+
+        background:#F3F3F3; 
+        padding: 50px 0;
+      }
+
+      .ibr-video-section h3 {
+        font-weight:bold;
+
+      }
+
+      .ibr-video-section-cols {
+        align-self:center;
+      }
+
+      .hp-stats {
+        display: inline-block;
+        width: 32%;
+        align-self: center;
+        margin: 10px auto !important;
+        flex-basis:inherit;
+        flex-grow:inherit;
+      }
+
+
+      @media(min-width:480px) {
+
+        .hp-stats {
+          display: inline-flex;
+          width: 100%;
+          align-self: center;
+          margin: 10px auto !important;
+          flex-basis: 0;
+          flex-grow: 1;
+        }
+      }
+
+
+
+      .hp-stats p {
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        align-self: center;
+        margin: 0 15px;
+        line-height: .7;
+      }
+
+      .hp-stats p span {
+        font-size: 14px;
+        font-weight: normal;
+      }
+
+      .orange-icons .certification-icon-box {
+        color: #000;
+      }
+
+      .video-modal-btn img {
+        width:100%;
+
+      }
+
+      /*        li:before {    
+      font-family: 'FontAwesome';
+      content: '\f067';
+      margin:0 5px 0 -15px;
+      }*/
+
+      .hs_icons {
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        align-self: center;
+        display: block;
+      }
+
+      @media(min-width:768px) {
+        .hs_icons {
+          justify-content: center;
+          text-align: center;
+          align-content: center;
+          align-items: center;
+          align-self: center;
+          display: flex;
+        }}
+
+
+      .yellow-red-grad {
+
+        background: linear-gradient( 0deg , #e53935 0% , #e53935 50% , rgb(255, 189, 26) 50% , rgb(255, 189, 26) 100% );
+        padding: 20px 0;
+
+      }
+
+
+      .yellow-side {
+        background: #FFBD1A;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        padding: 10px 15px;
+
+      }
+
+
+      .red-side {
+        display: inline-flex;
+        justify-content: center;
+        align-self: center;
+        padding: 50px 20px 0 20px;
+        margin-top: 50px;
+      }
+
+
+
+      .red-side .content, .yellow-side .content {
+        width: 100%;
+
+      }
+
+      .red-side .image,.yellow-side .image {
+
+        justify-content:center;align-self: center;width: 100%;text-align: center;
+
+      }
+
+      .red-side, .yellow-side {
+        flex-direction: column-reverse;
+      }
+
+      @media(min-width:768px) {
+        .red-side {
+          display: flex;
+          justify-content: center;
+          align-self: center;
+          padding: 0 60px;
+          margin-top:unset;
+        }
+
+        .yellow-red-grad {
+          background: linear-gradient( 270deg , #e53935 0% , #e53935 50% , rgb(255, 189, 26) 50% , rgb(255, 189, 26) 100% );
+          padding: 20px 0;
+        } 
+
+        .red-side, .yellow-side {
+          flex-direction: row;
+        }
+
+        .red-side .content, .yellow-side .content {
+          width: 70%;
+
+        }
+
+        .red-side .image,.yellow-side .image {
+
+          justify-content:center;align-self: center;width: 30%;text-align: center;
+
+        }
+
+      }
+
+
+      .hs_partners {
+
+        display: flex;
+        padding: 40px 20px 0 20px;
+        flex-direction: column;
+      }
+
+      @media(min-width:768px) {
+        .hs_partners {
+
+          display: flex;
+          padding: 40px 0 0 0;
+          flex-direction: row;
+        }
+
+      }
+
+
+
+      .certified_label {
+        display: inline-block;
+      }
+
+      @media(min-width:768px) {
+
+        .certified_label {
+          display: block;
+        }
+
+      }
+
+      .hp-stats img {
+        margin-bottom: 15px;
+      }
+
+
+
+      .row {
+
+        margin: 0 !important;
+      }
+
+      @media(min-width:768px) {
+
+        .row {
+
+          margin-right: -15px;
+          margin-left: -15px;
+
+        }
+      }
+
+
+      .o-logo {
+        width: 25px;
+        top: -2px;
+        position: relative;
+
+      }
+
+      @media(min-width:768px) {
+        .o-logo {
+          width: 80px;
+          top: -7px;
+          position: relative;
+        }
+      }
+
+      .header-right {
+
+        margin: 0;
+      }
+
+      @media(min-width:768px) {
+        .header-right {
+          margin: 0 20px;
+        }
+
+      }
+
+      .video-modal-btn img {
+        width:100% !important;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    {% module "module_152509650118873" module_id="2841936" label="nav" %}
+
+    <div class="growth-agency-header">
+
+      <div class="header-box">
+        <div><p class="main-title">WHAT'S A<br><span>GR<span><img class="o-logo" src="https://www.ontargetagency.com/hs-fs/hubfs/otm-logo-1.png" ></span>WTH AGENCY</span>&nbsp;?</p>
+          <h1 style="color:#fff !important;">{% text 'main-tagline' label='main-tagline', value='THE BEST MARKETING AND ADVERTISING FIRMS HAVE FIGURED IT OUT.' no_wrapper= %}</h1></div>
+        <div class="header-right" >
+
+          {% rich_text 'main-header-copy' label='main-header-copy' html=' <h2 class="description">Inbound Marketing has transformed the Best Marketing &amp; Advertising firms into ‘Growth Agencies’ that support all aspects of a company’s Marketing &amp; Sales funnel. Think artificial intelligence leveraging sales consultants and digital advertising experts. If you’re ready to grow faster than your competition, look around our site. It’s filled with free Marketing &amp; Advertising resources.</h2>' %}
+          <div style="display: flex;">  
+            <a href="/marketing-advertising-services"><img src="https://www.ontargetagency.com/hubfs/images/plant-growth.png" style="width: 100px;"></a>
+            <a class="link" href="/marketing-advertising-services" style="display: block;font-weight: 100;text-decoration: none !important;letter-spacing: 1px;align-self: end;">
+              <span style="color:#fff;text-decoration: none !important;">DISCOVER HOW ON-TARGET!</span>
+              <br>
+              <span style="text-decoration:underline;font-weight: bold;color:#FFC402;">HELPS CUSTOMERS GROW</span> 
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="padding25" style="background-color:#ffffff;">
+
+      <div class="container">
+        <div class="row" style="padding:30px 0;">
+          <div class="col-sm-12 col-lg-4 col-xl-4 bounce animated">
+            <div class="tri-hp-col" >
+
+
+              <img src="https://www.ontargetagency.com/hubfs/images/brain.png" alt="">
+
+              <p style="font-size: 34px;font-weight: bold;text-align: center;"> {% text 'home-section1' label='Home Section1 ', value='WHO WE ARE' no_wrapper= %}</p>
+
+              {% rich_text 'home-section1-desc' label='home-section1-desc' html='   <p class="hp-col-content">We\'re storytellers with a track record of developing successful inbound and outbound advertising and digital marketing campaigns. &nbsp;Our&nbsp;experience and customer- focused approach will help you achieve your objectives
+                            on-time and on-budget. Marketing and sales should always be in alignment, and we craft content that ensures that your story is heard by the right people at the right time.<br></p>' %}
+
+                            <button class="btn btn-primary red-btn otm-btn"
+                            type="button" onclick="window.location.href='/our-approach'">OUR APPROACH</button></div>
+                </div>
+
+
+
+
+
+
+
+
+
+              <div class="col-sm-12 col-lg-4 col-xl-4 bounce animated">
+                    <div class="tri-hp-col" >
+
+                            <img src="https://www.ontargetagency.com/hubfs/images/beaker.png" alt="">
+
+
+                        <p style="font-size: 34px;font-weight: bold;text-align: center;">{% text 'home-section2' label='home-section2', value='WHAT WE DO' no_wrapper= %}</p>
+                        {% rich_text 'home-section2-desc' label='home-section2-desc' html='<p class="hp-col-content">We&nbsp;understand what makes people (click…) tick. Our creative process is&nbsp;geared to tell your story, while fostering new relationships and&nbsp;generating loyal customers. It’s more than just looking the part. Our&nbsp;branding,
+                                content marketing and programmatic media services harness&nbsp;graphic design and storytelling to engage&nbsp;your ideal prospects, inspire&nbsp;them to want to learn more, and nurture them toward a&nbsp;sale.&nbsp;<br></p>' %}
+                        <button
+                            class="btn btn-primary blue-btn otm-btn" type="button"  onclick="window.location.href='/what-we-do'">WHAT WE DO</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-4 col-xl-4 bounce animated">
+                    <div class="tri-hp-col" >
+
+                            <img src="https://www.ontargetagency.com/hubfs/images/rocket-1.png" alt="">
+
+
+                        <p style="font-size: 34px;font-weight: bold;text-align: center;">{% text 'home-section3' label='home-section3', value='WHY WE DO IT' no_wrapper= %}</p>
+                       {% rich_text 'home-section3-desc' label='home-section3-desc' html=' <p class="hp-col-content">Be it inbound marketing or outbound marketing, everyone at On-Target! knows what it takes to create a compelling appeal that&nbsp;delivers results. It’s in our DNA. We are&nbsp;performance driven&nbsp;and consistently challenge
+                            ourselves to better&nbsp;understand what influences&nbsp;behavior. That\'s our purpose, help our customers develop the right&nbsp;content and the best ways to share it using our ever increasing toolbox.<br></p>' %}
+              <button
+                      class="btn btn-primary yellow-btn otm-btn" type="button"  onclick="window.location.href='/working-with-us'">WORKING WITH US</button>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <section class="ibr-video-section">
+
+      <div class="container">
+        <div class="row">
+
+
+          <div class="col-md-6 ibr-video-section-cols">
+            {% rich_text 'ibr-video-section-title' label='ibr-video-section-title' html='<h3>GROWTH HAPPENS WHEN AUTOMATION MEETS HUMANIZATION — <br>
+                                THE INBOUND REVOLUTION!</h3>' %}
+
+            {% rich_text 'ibr-video-section' label='ibr-video-section' html='  <p>Today’s consumers are eager to acquire their own information and want a personalized buying experience rather than a generic, hard sell. </p>
+
+                          <p>Imagine the ability to give each prospect a custom piece of content exactly when it’s needed to speed them through the buyer’s journey. Now, automate the process and embrace the Inbound Revolution.</p>
+
+                         <p style="font-size: 18px;
+                         font-style: italic;
+                         color: #000;"> Dan Tyre, HubSpot employee number six, pioneered the Inbound Revolution to bring personalization and targeted content back into the sales process. He recently visited our Houston advertising and marketing agency to commend our adherence to inbound methodology and share insights with our customers.</p>' %}
+
+          </div>
+          <div class="col-md-6 ibr-video-section-cols">
+
+
+            <div>
+
+
+
+
+
+
+              <!-- Video Modal  -->
+
+
+
+              <div class="bs-example" style="margin:0;">
+                <!-- Button HTML (to Trigger Modal) -->
+                <a href="#myModal" class="btn btn-lg btn-primary video-modal-btn" data-toggle="modal" style="position:relative;
+                                                                                                             border: none !important;
+                                                                                                             padding: 0;
+                                                                                                             margin: 0;">
+
+                  {% image 'hp-video' label='hp-video', alt=' Dan Tyre, HubSpot employee number six, pioneered the Inbound Revolution to bring personalization and targeted content back into the sales process.', src='https://www.ontargetagency.com/hubfs/images/dan-video-hp.png', width='100%' %}
+
+                </a>
+
+                <!-- Modal HTML -->
+                <div id="myModal" class="modal fade">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title">{% inline_text field="text_field_1" value="{{ module.text_field_1 }}" %}</h4>
+                      </div>
+                      <div class="modal-body">
+
+
+                        <div class="embed-responsive embed-responsive-16by9">
+                          <iframe id="cartoonVideo" class="embed-responsive-item" src="https://www.youtube.com/embed/gjOhnUZrWlk?autoplay=1" allow="autoplay;" allowfullscreen></iframe>
+                        </div>
+
+
+
+                        <!--  inline_text field="youtubevideoid" value="{{ module.youtubevideoid }}" -->
+
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Video Modal  -->
+
+
+
+
+              <p style="margin-top: 0px;
+                        text-align: center;
+                        font-style: italic;
+                        font-size: 14px;">Here's what Dan Tyre has to say about inbound marketing and out partnership</p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+
+    <section class="yellow-red-grad">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 yellow-side">
+
+            <div class="content"> <h4 style="line-height: 1;font-weight: bold;font-size: 18px;color:#000;">AS A HUBSPOT <br>
+              GOLD PARTNER AGENCY,</h4>
+              <p style="padding: 0;margin: 0;color: #000;">we utilize the entire HubSpot Marketing, Sales, and Service platforms  to streamline our custom inbound strategies.</p></div>
+            <div class="image"> <img src="https://cdn2.hubspot.net/hubfs/3221680/images/hs_gold_badge.png?t=1535060544183" alt="" style="align-self: center;max-width: 180px;"></div>
+          </div>
+          <div class="col-md-6 red-side">
+
+
+            <div class="content">
+              <p style="color:#fff;">View our knowledge base to get answers to common marketing questions</p>
+
+
+
+
+
+              <button class="btn btn-primary yellow-btn otm-btn" type="button" onclick="window.location.href='/knowledge'" style="border: 3px solid #fff;
+                                                                                                                                  color: #fff;">Go to Knowledge Base</button>
+
+            </div>
+            <div class="image">
+              <img src="https://www.ontargetagency.com/hubfs/images/brain-bulb.png" style="align-self:center;" alt="Marketing & Advertising Knowledge Base" onclick="window.location.href='/knowledge'">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: #222222;
+                    padding: 20px 0 20px 0;">
+
+      <div class="container" style="padding: 30px 0;">
+        <div class="row">
+          <div class="col-md-12" style="text-align:center;">
+
+            <p style="color: #fff;
+                      font-size: 18px;
+                      font-weight: bold;">The HubSpot software platform paired with an inbound marketing strategy from On-Target! has generated. </p>
+
+
+          </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col hp-stats" >
+
+            <img src="https://www.ontargetagency.com/hubfs/images/podium.png" alt="">     
+            <p>557%<br><span>ROI on PPC Ads.</span></p>
+          </div>
+          <div class="col hp-stats">
+
+            <img src="https://www.ontargetagency.com/hubfs/images/lamp.png" alt="">     
+            <p>33.3%<br><span>Click Through Rate.</span></p>
+          </div>
+          <div class="col hp-stats">
+
+            <img src="https://www.ontargetagency.com/hubfs/images/rook.png" alt="">     
+            <p>50%<br><span>more revenue than projected.</span></p>
+          </div>
+          <div class="col hp-stats">
+
+            <img src="https://www.ontargetagency.com/hubfs/images/sniper.png" alt="">     
+            <p>233%<br><span>increase in leads.</span></p>
+          </div>
+          <div class="col hp-stats">
+
+            <img src="https://www.ontargetagency.com/hubfs/images/tie.png" alt="">     
+            <p>360%<br><span>increase in website visits.</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: #F3F3F3;
+                    padding: 10px 0 40px 0;">
+      <div class="container orange-icons"> 
+        <div class="row"> 
+          <div class="col-md-12 hs_partners"> 
+            <div><h4 style="font-weight:bold;">On-Target! ranked #1 amongst all HubSpot Partners for 4Q 2017 for Customer Integration of Comprehensive HubSpot solutions. </h4>
+              <p>Simply put, we’re certified in all things HubSpot and utilize the entire inbound marketing, sales and service suite to achieve results for our clients. Our certifications include:</p> </div>
+            <div>
+              <img src="https://www.ontargetagency.com/hubfs/images/hubspot.png" alt="">
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="text-align: center;justify-content: center;">
+          <div class="col-md-12 hs_icons">
+
+
+            <div class="certification-icon-box"><img src="https://cdn2.hubspot.net/hubfs/3221680/images/HubSpot/orange/Academy_Badge_inboundmarketing-badge.png?t=1535069776949" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>Inbound Marketing</div>  
+            <div class="certification-icon-box"><img src="https://cdn2.hubspot.net/hubfs/3221680/images/HubSpot/orange/Academy_Badge_hubssalessoftware-badge%20copy.png?t=1535069776949" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>Hubspot Marketing Software</div>  
+            <div class="certification-icon-box"><img src="https://cdn2.hubspot.net/hubfs/3221680/images/HubSpot/orange/Academy_Badge_hubssalessoftware-badge%20copy.png?t=1535069776949" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>Hubspot Sales Software</div>  
+            <div class="certification-icon-box"><img src="https://cdn2.hubspot.net/hubfs/3221680/images/HubSpot/orange/Academy_Badge_hubsdesign-badge.png?t=1535069776949" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>HubSpot Design</div>  
+            <div class="certification-icon-box"><img src="https://cdn2.hubspot.net/hubfs/3221680/images/HubSpot/orange/Academy_Badge_hubsagencypartner-badge.png?t=1535069776949" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>HubSpot Agency Partner</div>  
+            <div class="certification-icon-box"><img src="https://cdn2.hubspot.net/hubfs/3221680/images/HubSpot/orange/Academy_Badge_hubscontextualmarketing-badge.png?t=1535069776949" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>Contextual Marketing</div>  
+            <div class="certification-icon-box"><img src="https://cdn2.hubspot.net/hubfs/3221680/images/HubSpot/orange/Academy_Badge_inboundsales-badge.png?t=1535069776949" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>Inbound Sales</div>  
+            <div class="certification-icon-box"><img src="https://www.ontargetagency.com/hubfs/images/HubSpot/orange/Academy_Badge_growthdrivendesign-badge%20copy.png" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>Growth Driven Design</div>  
+            <div class="certification-icon-box"><img src="https://www.ontargetagency.com/hubfs/images/HubSpot/orange/Academy_Badge_growthdrivendesign-badge%20copy.png" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>Growth Driven Design Agency</div>  
+            <div class="certification-icon-box"><img src="https://cdn2.hubspot.net/hubfs/3221680/images/HubSpot/orange/Academy_Badge_emailmarketing-badge.png?t=1535069776949" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>Email Marketing</div>  
+            <div class="certification-icon-box"><img src="https://cdn2.hubspot.net/hubfs/3221680/images/HubSpot/orange/Academy_Badge_hubsagencypartner-badge.png?t=1535069776949" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>Delivering Client Success</div>  
+            <div class="certification-icon-box"><img src="https://cdn2.hubspot.net/hubfs/3221680/images/HubSpot/orange/Academy_Badge_hubsagencypartner-badge.png?t=1535069776949" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>Developing A Sales Plan</div>  
+            <div class="certification-icon-box"><img src="https://cdn2.hubspot.net/hubfs/3221680/images/HubSpot/orange/Academy_Badge_hubscontentmarketing-badge.png?t=1535069776949" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>Content Marketing</div>  
+            <div class="certification-icon-box"><img src="https://cdn2.hubspot.net/hubfs/3221680/images/HubSpot/orange/Academy_Badge_hubsagencypartner-badge.png?t=1535069776949" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>Delivering Sales Services</div>  
+            <div class="certification-icon-box"><img src="https://cdn2.hubspot.net/hubfs/3221680/images/HubSpot/orange/Academy_Badge_hubsagencypartner-badge.png?t=1535069776949" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>Selling Sales Services</div>  
+            <div class="certification-icon-box"><img src="https://cdn2.hubspot.net/hubfs/3221680/images/HubSpot/orange/Academy_Badge_hubsagencypartner-badge.png?t=1535069776949" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>Client Management</div>  
+            <div class="certification-icon-box"><img src="https://cdn2.hubspot.net/hubfs/3221680/images/HubSpot/orange/Academy_Badge_salesenablement-badge.png?t=1535069776949" alt="Certified in HubSpot Inbound Marketing and Sales"> <br>Sales Enablement</div>  
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section style="background:#fff; padding: 50px 0 30px 0;">
+
+      <div class="container"><div class="row">
+
+        <div class="col-md-12">
+
+          <p style="text-transform: uppercase;font-weight: bold;font-size: 24px;color: #000;">Here's how we utilize the HubSpot toolbox to provide growth.</p>
+        </div>
+
+        <div class="col-md-4"><h5>THE MARKETING HUB HELPS:</h5>
+
+          <div style="display:flex;margin-bottom: 20px;">                       <div style="background: #E5E5E5;
+            height: 8px;
+            width: 100%;">&nbsp;</div></div>
+          <ul>
+
+            <li>Implement SEO best-practices that maximize awareness</li>
+            <li>Drive traffic to high-conversion landing pages</li>
+            <li>Nurture prospects with personalized drip emails</li>
+            <li>Automate your marketing funnel</li>
+
+          </ul>
+
+
+        </div>
+        <div class="col-md-4"><h5>THE SALES HUB HELPS:</h5>
+          <div style="    display: flex;margin-bottom: 20px;">                        <div style="background: #E5E5E5;
+            height: 8px;
+            width: 100%;">&nbsp;</div></div>
+
+          <ul>
+            <li>Identify new sources of interested prospects</li>
+            <li>Template, automate, track and optimize emails and sales collateral</li>
+            <li>Streamline meeting booking with personalized calendars</li>
+            <li>Record prospect interactions and link with your CRM</li>
+
+
+          </ul>
+        </div>
+        <div class="col-md-4"><h5>THE SERVICE HUB HELPS:</h5>
+
+          <div style="display:flex;margin-bottom: 20px;">                       <div style="background: #E5E5E5;
+            height: 8px;
+            width: 100%;">&nbsp;</div></div>
+          <ul>
+
+            <li>Encourage conversations across various channels</li>
+            <li>Educate prospects using an FAQ knowledge base</li>
+            <li>Store customer feedback and manage data-driven improvements</li>
+            <li>Create lifetime brand advocates</li>
+          </ul>
+
+        </div>
+        </div></div>
+    </section>
+
+    <!-- module "module_153416834570016" module_id="3516139" label="yt-video-modal" -->
+
+    {% module "module_152509634232252" module_id="2842056" label="foot" %}
+
+    <style type="text/css">
+      .bs-example{
+        margin: 20px;
+      }
+      .modal-content iframe{
+        margin: 0 auto;
+        display: block;
+      }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        /* Get iframe src attribute value i.e. YouTube video url and store it in a variable */
+        var url = $("#cartoonVideo").attr('src');
+
+        /* Remove iframe src attribute on page load to prevent autoplay in background */
+        $("#cartoonVideo").attr('src', '');
+
+        /* Assign the initially stored url back to the iframe src attribute when modal is displayed */
+        $("#myModal").on('shown.bs.modal', function(){
+          $("#cartoonVideo").attr('src', url);
+        });
+
+        /* Assign empty url value to the iframe src attribute when modal hide, which stop the video playing */
+        $("#myModal").on('hide.bs.modal', function(){
+          $("#cartoonVideo").attr('src', '');
+        });
+      });
+    </script>
+
+    {{ standard_footer_includes }}
+
+  </body>
+
+</html>
+
+
+
+
+
